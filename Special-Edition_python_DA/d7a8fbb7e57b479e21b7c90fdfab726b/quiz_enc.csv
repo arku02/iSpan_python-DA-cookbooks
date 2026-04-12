@@ -1,0 +1,325 @@
+﻿"id","question","option_a","option_b","option_c","answer","category","difficulty","knowledge_point","question_type","chapter","explanation"
+"1","在Python中，以下哪個庫主要用於數據分析和處理？","NumPy","Pandas","Matplotlib","c631fd848b8474ceee7e8b05b46cf0961777d474fd41cdfe0ee45b4edd997b2c","Pandas","簡單","Python數據分析庫","概念題","數據分析導論","IBgaDA4dotnfKQ0cBwEqpcjUkNDUhuLAl+3cjvnSotTIn+fyiubCp+7pkfrjht3Ul+nyj/XqofvblsjkisDHp//pkNb0iv7HmdLsjvrmo9v0PRUcDig2IB0ckfrjPSEzGRwHjvrWotLqnsH4icnPrsz1kNPKi8vLmMjkjcDio9v0n+HQif3ep+P0kNXzi87emPrJi+/sCjQdKQ2M19Ws5/Ge4MCJ+Pim1+iRxdeG7MmX1+ON/eKi1MieweyJ/cmlzeWb1OMjJTUAFRscAwcmpcjCnM7uidDplu/IjvrWotLqnPvHh8jSpPzvl+jt"
+"2","在NumPy中，以下哪個函數用於創建一個全為0的數組？","np.zeros()","np.empty()","np.ones()","03087928496b4e7ee9dae2f3ed6a8e98d1b6fe267c55e8554db40420425aa3d3","NumPy","簡單","NumPy數組創建","函數應用題","NumPy基礎","HglaEgocKzJYUJHv0ojR+Zft3I750qHIxZzP0ovWxKTw8pHtx4nG+0Ce7uyJ+/ymxf2X6O0ANG8VFAQcFkZtpPnMkdPVivzBlfn/jvPEocntnNPjiuLSpur9kv3XifHFn8X4jerYocntnNPjiu74pP/vktnViNL9lfzTjcL2o9v0nv/oievPovD7GhhBASokA1FdjebbofrKnczoiu7PpPXRk+rVX6Pb9J/h0IjbwKLw+w=="
+"3","以下Python代碼的輸出是什麼？
+
+print([1, 2, 3] + [4, 5, 6])","[1, 2, 3, 4, 5, 6]","[5, 7, 9]","錯誤","83fe2d49627b381377a245b93efcb89ea859555e2313910e6843549d94bd310a","Python基礎","簡單","列表操作","代碼執行題","數據結構","leXcOBYaLC4enczFgNLIpc3Gk/zHi87hmODrQERHofH9nPHBiu7PpPjunMnHh8TzmNj4jvzjoPzsn+jrit7DpN76kej+h8TilvfRgNrZoP/2lsjkh+7Ipcj0kvDAh8TzmNj4jerto/XQnu/QiuTkovD7kfPPiOnlK0hYSF1CZHItWV9INFpoYUVVVF4yid7Fl8zkjvHyotnfIkVET1xoYUNVVFxDTnFtUE8pi+/s"
+"4","在Pandas中，以下哪個方法用於處理重複數據？","drop_duplicates()","remove_duplicates()","delete_duplicates()","ecbb568e2690d5c8990027ff0d6aa3d74c6d5ea56f5d6ef6bc1de8cf472e8570","Pandas","簡單","Pandas數據清洗","函數應用題","Pandas數據清洗","IBgaDA4doPndnuDAifj4qensk/jph8PMmN3zjvrWotLqnu7sifj9p8PskvDACjYuACYQHR8CLSIRDREbR0er/fyc2uuK4euly9yR4MWH3eU0GAAJKRwlLBWf/P48CzYoFQqQ0MKJ3sWZ/vmAy+ms4Pya9OodCykuBhwrDBoeKCgTGAANHEZtpOL1EA0DCzAkLx0BGAMHJyAEHAdARor8zJbh2zgOACAgA57u7InG3afK75L+1oj31JP59g=="
+"5","以下哪個不是Python的基本數據類型？","int","float","array","efa116e965af27d659263c64bcac32474c59a7d972b562fa97a4a6b0685e01fd","Python基礎","簡單","Python數據類型","概念題","Python基礎","EQsGCRaK/MyW4ds4FhosLh6e7uyK8f6n7NWS/deI19uZ2OqN8eWr/fyc2uuJ9usPBRQkEYrU76XI1JPy64jR+Zbq7oHO8KHf+5r06j8XMCkfF5Py64vb+5bl2I761qLS6pDV9orwz6T8/JLjwwcqNZ/F/I762qLUyJbI4YzuxSccFhUcgNLMp8XXndPxiNH5n8X9i+/vJi4fFZvU54v8wpfxyo3v0qv9+Zr06RwaNq7M8ZHF+Ino55TBxofT56fB8RUdGxuB+MmV8eOAzsar/fma9OkbGzQtFZbI4Irrx6bF/ZvU5o3EwBQQFxyA0syk3e6R7deB+MiV6/gbChqr/fiQ7+6K/syuzPCTxeaNxMM="
+"6","在Matplotlib中，以下哪個函數用於創建一個新的圖形？","plt.figure()","plt.plot()","plt.draw()","f95b65188fe273eadda17d08ca0f323590f9225d062059163f4dc4e9f48f0ebf","資料視覺化","簡單","Matplotlib基本操作","函數應用題","Matplotlib基礎","ABUARgkHIzQCHFxBiPrsp+bFkeHai//7lMH0je/lotfAnu7sivLSpM3bl+jtHig1XgkYBxtGbabk0ZL+04vY6Zfswo3m46Hd5pzJyovWzqbJ05zL0ojR+Zbq7ofT4qzB/AkYHEEKNiAHUV2P+8ai18yf79yJ+PSk7O+R1c2H5e6X3c6L7+w="
+"7","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+print(np.array([1, 2, 3]) * 2)","[1, 2, 3, 1, 2, 3]","[2, 4, 6]","[[1, 2, 3], [1, 2, 3]]","a301f53bd5bbc6a7825167e8987e7b5fc0d70fb3bd456e3167a2230839a40cf5","NumPy","簡單","NumPy數組操作","代碼執行題","NumPy數組操作","PgwZOBaI0fmXzPCA5+mi6emQ8+eI9fylyeGS8e2B+M2W5feN3+Oi1MieweyL1umm6v2Sx+CLxMqV/PeP286twcKR1eSL19ynw+yS++KK+d2T+faN9M6i7NQXBEYOHDYgCVEvWUNOdm1QSilBT0Rkc5fj8I/a/qLf7J/sxzRcaGFEVVReMo3Eww=="
+"8","在Pandas中，以下哪個方法用於選擇DataFrame的列？","df.loc[]","df.iloc[]","df[]","599c347bb20b88134a4abf9b2f21b62e9b4ef910e489c05a9057b8868569e790","Pandas","簡單","Pandas數據訪問","函數應用題","Pandas數據訪問","leXcOA4AICADnczFgNLIpc3Gk/zHCiIaLZz7x4vV4ajxwZL76ColNRE/BgkCC6Pb9Jz8/4zuxiUWVxgHDDUZpuTRkv7Ti9v7lu/Ijsf3o/DUnu7siNrmpMzsm9TjCiJvGRUbCzQzo9XYn+LUivH+p+bFkNXiifnvl+Pwj9vMof3llsjkiuvtqfD8nevSi8vulMLRj/vGotfMkPXQif3DqdH1kfrji8zWk/n2"
+"9","以下Python代碼的輸出是什麼？
+
+print(list(range(5)))","[0, 1, 2, 3, 4]","[1, 2, 3, 4, 5]","[0, 1, 2, 3, 4, 5]","313822bc7fea5de459f706a15a12e77e92b3707fbe35c23af78237d8bcc39e0a","Python基礎","簡單","range函數","代碼執行題","控制流","AhgaDwpGcWiX7euO5/6g+fCc9OOK0Npxme//jcjlq/38nczliuLBp/vVQY/16qLUxJ/h0IrUy6T47pvU44vJ8kBVVFlDTnZtUEpYSFuNxMMcEAccR0ehxs2f4dCK3sOo8OCR6OSL/s6V8eOA0ueizuue9tKK5tOp0dGb1OOL3+GW1NCP2v6i3+yf7Mc0XmhhQVVUWkNOd21QTSmL7+w="
+"10","在數據分析中，以下哪個圖表最適合顯示數據的分布情況？","折線圖","直方圖","散點圖","b71c7eec95da313086095ec8f9036c9b2154111cb2a9723cc7a8b75c898ccc96","資料視覺化","簡單","數據可視化選擇","概念題","數據可視化基礎","l+LAjvnXod3mn+zHhs/rptTDkv3XiNfblfHyjdftosL1n8fpiPTAp+z5kNXci9jXmNjcgc7wod/7lsjkisDHpMD+kv3XiNfblfHyjuf+rMrVnM3aiu7PpP35nf78gfjJEhAah9Pnq/38nczOhs/rptTDksfgi8TKlfT0gfn9ocTXnu7sifv8p+PjncjUicrGk/n2juX2o/bqnOj+i9b/qdb4k/zHiNL9mdjbj8vUotTIn+fyhvTsp+n7nf78id7FmNf+jeP4rPfYnP/KgNLIp+XandPxi9jXlMHPgMnvo9XYn+LUhs/rptTDke3Gi8TKmNf+gejhoPj7kOL7iPTAqOflkNftjcTD"
+"11","以下Pandas代碼的輸出是什麼？
+
+import pandas as pd
+df = pd.DataFrame({""A"": [1, 2], ""B"": [3, 4]})
+print(df.shape)","(2, 2)","(2, 3)","(3, 2)","dc7d65bb5c0a172df72a6967eed57d8d6dac46e5e1aa0dfc625ff26b116483fa","Pandas","中等","Pandas數據結構","代碼執行題","Pandas基礎","FB9aGwcPNCSYxuCN9PAAIAQYMhoOAyGm6v2R1c2Jz8GfxfiN4t1sqdH1kv3XQmSk+O6S/ddHp8HynOjAhu7dpPDykNbki+nRlMHZh9PiACAEGDIaDgMhp+zwRoDO4nak+O6b1OOIzcGUwtEbBw80JJbh20BdQmRzWZr06g=="
+"12","在Python中，以下哪個語句用於導入模塊？","include numpy as np","import numpy as np","using numpy as np","b0218a2bbc3f417359fa9431e3f285201e1a2a02a0226ab5b049683619dd9203","Python基礎","簡單","模塊導入","語法題","Python基礎","leXcOBYaLC4enczFgNLIpc3Gk/zHBykxHwsAgMXwoc7VnMTmiuvhp9jYkcnlgfjNlMf/jcnsLSwAFgYcTwAxLAAAVAkcTioxk/n2AQENKDQUHJH64xs3KB4ekNDiiNzuIAAAAAAAoPndnuDAifj4pMD3ke3KiOzgldj+j/XqrdbskPndisPTovD7"
+"13","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+print(a + b)","[1, 2, 3, 4, 5, 6]","[5, 7, 9]","[[1, 2, 3], [4, 5, 6]]","026f9f14ac701420e92d582a7611b0c43b6f20af43d13a9b5290461c3e8654e0","NumPy","中等","NumPy數組操作","代碼執行題","NumPy數組操作","PgwZOBaI0fmXzPCP9Nahy9Cf7eqA0sin7PqR2OKIw8iUxPmP0sCj2/Sc8euI2uSm68GR4s+NxMOV4tSOwsolYVtZFo/16qP04J/q9In26xpBUkBET1xvdFxZR0NZM6v9/Jz52zRbaGFHVVRRMo3Eww=="
+"14","在Pandas中，以下哪個方法用於按指定列對DataFrame進行排序？","df.sort()","df.sort_values()","df.order()","3f75981b02962f8a8f8bf496b1e927663ba91767021f1acf55cd1e4ead9991ee","Pandas","中等","Pandas數據操作","函數應用題","Pandas數據處理","FB9aGwAcMB4GGBgdCh1saJft3I750qLN+Z/474rA3qT47pHY4iolNRE/BgkCC63BwpHV5Ing1qTK9pfo7QoibwMWBhxHR6LZ35H84ojnzKfs1ZPy64jS+JbK4YfT4qH2wpHWw4nNwKbk0ZvU4woibx8LEA0dRm2lyPSS8MA+JS8UGAeP9eqi6emfzv6J+P2nw+yX6O0="
+"15","以下Python代碼的輸出是什麼？
+
+print({1, 2, 2, 3, 3, 3})","{1, 2, 2, 3, 3, 3}","{1, 2, 3}","[1, 2, 3]","e0d626786a5c40cd88b54601d00f269d3c20bbc5c1426dcf5859c3184dc51fad","Python基礎","中等","集合","代碼執行題","數據結構","leXcOBYaLC4enczFgNLIqOv/kfjngfjJAxwAh9PnotnfnczoiMbqpvTYkdLgivzVlMH5gejjrOX3nu7sifv8p+Pjk93/iOPKk/n2j/rYocjFnM/ShvXCpODxkvHtgfjNmf75gMvpo9v0nPHriNrkp+z6nMrEhsPrlfLhjeHVrdjUmvTqivXkp93dD1lDTnZtUEtYSFxCZHJcWUcVifLHqdLSk9jOi8jXl/vOE15CZHNcWUcVjO7G"
+"16","在Matplotlib中，以下哪個函數用於設置圖形的標題？","plt.title()","plt.heading()","plt.name()","478550e396dd321f52c9a078960a4ce36538cbdcf1cbdb7b50bc7060f1265271","資料視覺化","中等","Matplotlib圖形設置","函數應用題","Matplotlib基礎","ABUARhsHMC0VUV2P+8ai18yR3MWI0+qk7O+R1c2J3sWW0e2BzuKnwfIJGBxBBiEgFBAaD0dHodP8CRgcQQAlLBVRXYzX46LZ3zQVHB8CKzUcEBaP9eqi6emfzv6K6fmn5cGX6O0="
+"17","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+print(np.mean([1, 2, 3, 4, 5]))","2","2.5","3","ac6312c74071e7b33f834562697bc5ddd0fde06c66779702d576954ec7878797","NumPy","中等","NumPy統計函數","代碼執行題","NumPy統計操作","HglaBQoPKmlZkdzgiMDTp+XBk93rid7FlcDHjfLpocHMmvTqNF9oYUJVVFtDTnBtUEwpj/XqofjDnOnviu74p+jWXFlEXG9yW01fXUZBcWFNWUVdQFtkfFBKl+jt"
+"18","在Pandas中，以下哪個方法用於連接兩個DataFrame？","pd.concat()","pd.join()","pd.merge()","f7a4dc52a8c3f96f77832256c45186d29bc12f8686f04485ecbd22fa5e5c9b27","Pandas","中等","Pandas數據組合","函數應用題","Pandas數據組合","AB1aCwAAJyAEUV2P+8ai18yQ9MuJ4OGk9dCR6OSIzNeV3e6N7+UAIAQYMhoOAyGuzPWR58CK/+SW9f2AzuKr/fgYDAEcU3SuzPCS4PmIyMiV8eOH0+YlORkKSVmA0s2o8NqS5sqNxMMAHVoCAAcqaVme4MCJ+Pik78OS/tOJ8OOVxeGP9eqtwdOf+s2A0sgxFFcZDR0JIWlZnuDAifj4pO/Dkv7Ti8zWl+Pwge/Nos/VmvTq"
+"19","以下Python代碼的輸出是什麼？
+
+print(""Hello""[1:4])","Hell","ello","ell","681ecac10a8b611eb3a8ea6e46333dde22fd992852b312bb47ece5705f232ace","Python基礎","中等","字符串切片","代碼執行題","數據結構","leXcOBYaLC4enczFgNLIpN3uk8TJivzzlfHzj+bpH3BKTSmAzsaj5cqcyvaI2uakzOxFh9Pmoc31n//EgNLNpPjJk9zNi/jURJbI4IvWyaT8/JLjw4H4yJfj8I3C/qHs557YzovW9qLw+1YgCgIoLlKe7uyI2uakzOxFjvfBZiRSlsjkiNrmpMzsRo73wWYtUpbI5Ija5qTM7EeO98FmLVKWyOSJ58Sly9xWIAoCKC5SIkVSWzOi2d9bEQQDTKfB8g=="
+"20","在數據分析中，以下哪個術語表示數據中的異常值？","Outlier","Missing value","Duplicate","69d49edc224cae4d51e86887bb99fbc8b71759f3932a34adc16b5743aae41d1d","數據分析概念","中等","數據質量","概念題","數據預處理","PwwABAYLNq7M8ZP934v8+ZX5yIfT56LZ35/474fmw6T1z5DT+YjR+Zbq7oHU8K3g35Hl/4vWyaTg9ZPy64jR+Zbq7oHU8Kv9/JD08orW/Kfo1pLN2onv7pX5yI7n+KD5/Z7Yzor+zKbIxJ3D+4vMx5XB94/16qHBzJr06iIHNzIZFxNIGQ8oNBWWyOCI0v6k1MiR6NOB+MiW4duO4+mi1Mif5/KL1umm6v2TwdWLxP2W8eKO88Ss6eiQ+OyI9MCk8MWb1OMqMTEcEBcJGwur/fiQ8+WHysOk8MWb1OaI3O6W9fOO+tai0uqdzMWG6cmp1P6R79WJy/+X4/CAx/atzfSa9Oo="
+"21","以下Pandas代碼的輸出是什麼？
+
+import pandas as pd
+df = pd.DataFrame({""A"": [1, 2, 3], ""B"": [4, 5, 6]})
+print(df[""A""].sum())","6","15","21","577d9252bb34fcba138192cba56c4518b5015c331b8dd2a402cdaef6e730f6b7","Pandas","困難","Pandas數據分析","代碼執行題","Pandas數據處理","FB8vSi5MGajxwZL76ColNRE/BgkCC6Pb9DiR4PiB+M2YxuCN9PCg+fCc9OM8CzYoFQqX6O09ITMZHAeP9eo3NB1RXY7516Ly5ZHc4IjA06f5+ZL05ovBwpfN1I/16qHT/Jr06i6LzNaX4/CN6u2j9dCf7Mc0X2hhQlVUWzKB+M2V1/eN7/+j2/Sc5uSJ9utwW0tfW1JYp8Hy"
+"22","在Python中，以下哪個是正確的列表推導式？","[x for x in range(5)]","[for x in range(5)]","[x in range(5)]","0b48fb43ac8458e573b834a91f863f1d3e157aebf0334f30f27c0c142e9120ad","Python基礎","困難","列表推導式","語法題","高級數據結構","ltTXj83Uo9v0nPz/h8/sp/7Rkdjhi/jOmNPqjtz7otnfIpzJx4fF1ZXF+0gJATZhmNf+gejhZCgeWZHnwIb77JTC143f46zw0SSX6O2L3+GW1NAzF04iLgJZDEgGAGQzERcTDUdbbRyW4duOws2j48qe7uyA0sik3vqT/PCIzNGUwfSN7+WhzfWc5MNfi8zxRJ7u7Irm06nR0Zfo7Q=="
+"23","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([[1, 2], [3, 4]])
+print(a.T)","[[1, 3], [2, 4]]","[[1, 2], [3, 4]]","[[4, 2], [3, 1]]","39349372458ebc2ef6addbee143bcec03ac5069ff1721a9ed9a9ac615a35f8d9","NumPy","困難","NumPy矩陣操作","代碼執行題","NumPy數組操作","EVcggND6odrun+HQiNvAIJfj8IDS56P83pr06ofTzabN15L74or53ZXJ84DO4qzv+p720orm067M9ZHg+Ibqy5f7zoDO4qfB8pz694n7/KbF/RWO98EfGkFVVFoyQmQaQ1VUXDIzq/38kcnhiNPqpM71nMblicb7KyJFRE9dGW1QIkZET1oZHJP59g=="
+"24","在Pandas中，以下哪個方法用於將時間字符串轉換為datetime對象？","pd.to_datetime()","pd.as_datetime()","pd.convert_datetime()","4eb8e3661f2915caf7eab013fd04bc02c82bac66ada25b3b3a7309e9995eb24e","Pandas","困難","Pandas時間序列","函數應用題","Pandas時間序列","AB1aHAAxICAEHAABAgtsaJft3I750qHx95/t6ob416Td7pPEyYr885jE/Y7g9aPDyh0VHAoaLSwVnMTlh9/lovD7BAxBDzceFBgADRsHKSRYUJH64x4gbxMWGh4KHDAeFBgADRsHKSRYUJDQ4ojc7iAYGgwOHaPb9J/c8YnU0qfmwJLb+o3Eww=="
+"25","以下Python代碼的輸出是什麼？
+
+def func(a, b=1, *args, **kwargs):
+    print(a, b, args, kwargs)
+
+func(1, 2, 3, 4, x=5, y=6)","1 2 (3, 4) {'x': 5, 'y': 6}","1 2 3 4 {'x': 5, 'y': 6}","1 2 (3, 4, 5, 6) {}","5d23de339890dca8cf1a7a29508b96ae3cf9e2c489d02353eef709bc3980a780","Python基礎","困難","函數參數","代碼執行題","函數進階","leXcge/3ocH7nPPVifv8qdrGk/zHivzsn8X4CVJfaGESREZETw82JgNEXFtDTnBoXFkfHw4cIzJNAlMQSFRkdFxZUxFIVGR3DZr06kUPNiYDn+DehvXCpNTjncz3id7FlMT5j9LAoc7zn+HQgNLIa1oSAwkdCTen5M+d8+mL4NuZ3eyP9eqt1uyQ+d2Kw9Ok//qS/deNxMM="
+"26","在Matplotlib中，以下哪個函數用於繪製柱狀圖？","plt.bar()","plt.hist()","plt.barplot()","6db6ba7b2869a8c6a01b5203bb81e89f14b26c56bb117317d29edc62977c5723","資料視覺化","困難","Matplotlib繪圖函數","函數應用題","Matplotlib繪圖","ABUARg0PNmlZnuDAifj4psnTnMvSiNvwl/L0jfP4p8HyCRgcQQYtMgRRXY/7xqLXzJ7NwofN+abrzZL+1ovY15/F+BgDGmojEQsEBAAabGiUwfmO98EJIAQJGAcbAi0jl+Pwjsf3ovvmnPPVifv8ovD7"
+"27","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([1, 2, 3, 4, 5])
+print(a[1:5:2])","[2, 4]","[2, 3, 4]","[2, 4, 6]","44d962c659ca0b374a6a3058e33aca7303dc16071e9484a96b924313e5d3532e","NumPy","困難","NumPy索引","代碼執行題","NumPy數據訪問","ESJFUlpUdhyY2NyPy9Sh/+6ewMqK0tFwn8X8jeProsrclsjhiub0psTbkdT6W6v9+J3M5Yriwaf71ZvU5ojrzpnj4FqK7s+k9fqT3M+HxfmV9uKM1+6hwfuc8euI2uSi8PuR88+I6eWZ+MyN4Pij2/Sc8euI2uSn6NaT3M2L+NRBnu7sXYvWzZfN1o3T+3em6v1Ah9Pio/Tgn+r0ifbrGkJVVFwyjcTD"
+"28","在Pandas中，以下哪個方法用於計算DataFrame中每列的描述性統計量？","df.stats()","df.describe()","df.summary()","0eb0e712383c2df6a7243b9af520410db8be5f63597f1502e039fe5774c00a37","Pandas","困難","Pandas統計分析","函數應用題","Pandas統計分析","FB9aDAodJzMZGxFARonQ6ZbvyIDH5qPv5z0VHA4oNiAdHJDQwojrzpXx44/16qLO/5HL2Inu46bFyJzA54fDzp/F+I3j66LK3JHc4In7/KLw+JHR3IvZxpX5yIvv76Lp6Z/O/orZ6qLw+JL074v0zpX5yIvv76Ha65z87ovTyaflwZH644jYwZXd043v0qfB8h0SRhwaJTUDUV2N/eIgJ14KAQUCDzY4WFCQ0OKI3O4gGBoMDh2j2/Sf3PGJ1NKn5sCS2/qNxMM="
+"29","以下Python代碼的輸出是什麼？
+
+print(dict([('a', 1), ('b', 2)]))","{'a': 1, 'b': 2}","[('a', 1), ('b', 2)]","{1: 'a', 2: 'b'}","d7bca581c753fc511f9749a8787ce635a5d03567d45f8be368f319ad47539c11","Python基礎","困難","字典創建","代碼執行題","數據結構","FBAXHEdHocbNn+HQiuHrpcvckdbxh8n0lfnIjd/jocnnkdXAiufxpMvDkcX4i8H5k/n2jfPGrcHpnPTji9DPpN3pkNDCgfjNK1FTCUhCZHBZVVRASAxjbVBLXTWJ9uulyPmR6OSLyMSV6d+N6sehwfuc8euI28Cm6v2R4PiG5emfxfiOwOGhwfuc8euI28Cn6NaQ0O+LxMqZ9MGN79Kh8f2a9OqK9eSn3d2b1OOJ8dGW5+iO98E/ZhFeTkheQmRmEl5OSF0Tp8Hy"
+"30","在數據分析中，以下哪個步驟通常在特徵選擇之前進行？","模型訓練","數據清洗","模型評估","c205658415e3afd788c3752e98f8efa8ccc8cd536e60b2d3e4a23f50e2dfec4f","數據分析概念","困難","數據分析流程","概念題","數據分析導論","leXcjvrWotLqnPzuifDUp8X4k8Dkivzsn8X4jvrWotLqn8ztidrTqPDjkdDXi9jpl/DNjdHbrcDIn+fvi9fPpPn0nejdhuXNk/n2jvrWotLqn8ztidrTpPz8kuPDht3Ul+nyj9PUoeXBnPTUjO7FpuXJkdDXi8T9lev4gejjrOX3n+HQif3ept3wm9Tjh8TYlMPvjsLLrejvn+zHiOz+pcr/k8rVivvcluzMjvz0o9v0kcfChunLrsz1k+rVi/rNl8P4j/Xqo8jJnMrdhu/8p+P+kfrjiOzglef/gMf9o/bEn/v4i9DfqfnWkc3Sid7FlebOj8vgp8Hy"
+"31","在Pandas中，以下哪個函數用於讀取CSV文件？","pd.read_csv()","pd.load_csv()","pd.import_csv()","5040db882aa70bd1b12775daade186baf410b1916b509e672dce54b11d51511e","Pandas","簡單","Pandas數據導入","函數應用題","Pandas數據導入/導出","AB1aGgoPIB4TCgJARojc7iAYGgwOHaD53Z7gwIn4+Kne+ZHn+S0XF5bv84zU2KPb9Jzz1Yn7/KLw+wQMQQIrIBQmFxsZRm2k4vUEDEEHKTEfCwA3DB0yaVmdzOWJ9usRERcQCRyJ3sWW0e2O1fihxs2f4dCM7sY="
+"32","Pandas中的主要數據結構不包括以下哪一個？","Series","DataFrame","Array","6dd7e40d1f761638c60512b2a8c2c697251daf8a5127fd5c666cc312b00ada2e","Pandas","簡單","Pandas基本概念","概念題","Pandas基礎","IBgaDA4do9v0nczTh8jFp+XBkvv1ifHRlt7/jvfBFyQCEBEbivzIBRENFS4dDykkk/n2KR0cJTiW4dsmGgMUOJfj8I761qLS6p7B+InJz67M9ZDQ4ojc7iAYGgwOHaPb9J3M04fIxaflwZL79Ynx0Zbe/4vv7A=="
+"33","在Matplotlib中，以下哪個函數用於繪製散點圖？","plt.scatter()","plt.plot()","plt.bar()","95b5503b73aaba663e84d1c48512359902b0648568691da2e42bd045f76ba077","資料視覺化","簡單","Matplotlib繪圖函數","函數應用題","Matplotlib基礎","ABUARhwNJTUEHAZARojc7j0YABgDATAtGRuQ0MKJ0OmW78iP1sSs4s2f4cuG1dqk7O+T8uuLw/yW7MyL7+w0LQRXBAQAGmxolMHPgMnvo9XYn+LUiNfuqdPEk9/1i9jXn8X4GAMaaiMRC1xBiPrsp+bFk9HFhuf8lubFj+Tuod3mmvTq"
+"34","在Python中，以下哪個語句用於處理異常？","if-else","for-in","try-except","b5ab2549a520b86e78a4d53aa2e199c817cfed56133eef2da9974e1ebb999794","Python基礎","簡單","異常處理","語法題","異常處理","BAsNRQoWJyQADZLwwD49NRgWGozXw6PV2J/i1If30abg/5P934v8+Zfj8IDF8KHO1Zr06hscPaTR85Hk6ovU6pX224Ds06H95Z7t1Ij79KTIwZPy64r/4pfbyIfT4iE5ExwEHIrPzqT8/JH4xIbd1Jfp8o/63qH5yJ7u7IvV56bSxZfo7QcibBUVBw2I+uyn5sWSyvKK//eV8dCO+dmr/fwfGxpCByqm5NGS/tOG++yUwteL7+w="
+"35","在Pandas中，以下哪個方法用於處理缺失值？","dropna()","removena()","deletena()","333fb8d708790b8f743e3c2eb61bf85bb1a004a45ced11d41cb7c8d54521407d","Pandas","簡單","Pandas缺失值處理","函數應用題","Pandas數據清洗","FAsbGAEPbGiW4ds4DgAgIAOdzMWI+uyn5sWc8fqJ1MeXxc6Ny9+hwcye7uyJ+P2nw+yb1OOL6sKV9tuM1MuhydqQ7cyK4sGk4NKT1NWL4PCV+ciP9eqs4Pyf/P6K5tOi8PsGDQIBMiQeGFxBivzIJRUVERwKACVpWZ3M5Yn26xERFxAJHInexZbR7Y7V+KLXyZ/H/Yzuxg=="
+"36","在Python中，以下哪個是列表的方法？","add()","append()","insert()","d641e2b86a54d1596f49573da401ef785b55139b5d2ddeedab2bfbf00914cd69","Python基礎","簡單","列表方法","函數應用題","數據結構","EQkEDQEKbGiW4ds4FhosLh6c/P+Hz+ym6v2S/taI99SfxfiP+8ai18yc6MCK5tOp0dGS9MSL9P+Wzs+N5c6g+fCc9OOK68emxNmX6O0HKjIVCwBARor93pbh243n+azg2J7u7In4/afD7JvU44nQ6ZbvyI3zxqLN95za8ovTyabN15Ln/YvB5JX894/bzqv9/J3J7obPyKbr15HnxYvRzpXq3o3v5aLZ35z8/4fP7Kbq/ZL+1oj31J/F+IDv4qD5/Z/sx4r97qXK4pLwwIvM1pjY3I/16qLXyZ/H/YzuxiAUHVxBi9bJp+jWkeD4huXpl+PwjvnXovLllsjkh+7Ip+jWnfPpi9TJl+PwjvnXovLlmvTq"
+"37","在Pandas中，以下哪個方法用於對DataFrame進行分組操作？","group()","groupby()","aggregate()","69f0c500a040b04bb386ce5c2d19686e06049b5bfee172eb07e7465b2aebfab5","Pandas","簡單","Pandas分組操作","函數應用題","Pandas數據處理","FwsbHR8MPWlZn+zHPw8qJREKkNDCidDplu/Ijd/jACAEGDIaDgMhqPDLnMnji8zHl8zwjvzjoPzsnu7sifj9p8Psl+jtCTYuBQlcQYvWyafo1iQJAQolMpfj8I7H96L75p/i0Ynd0a7M9RUPCBwhJhENEUBGiNzul+3cjvnSofH9nPzuiNvApM71k/LriNH5luruge/crOD8kfXyiv7Mp+P0kNXzid7Flu/Njtz7p8Hy"
+"38","在Python中，以下哪個是字典的正確語法？","{key, value}","{key: value}","[key: value]","bd8a2ece2a4a675baad1f7d8d29006c3896651a06921b3681374538e07240c9c","Python基礎","簡單","字典語法","語法題","數據結構","leXcOBYaLC4enczFgNLIpN3uke3Xid7FltTXj83UrOvun8f9ifbrOhscDVJPGCUtBRwJh9PiocTGnczFBAs9pOL1AgkDGyGlyfKd/vyJ0OmV/+aA9vGhyfaQ7vyM7sY6GxwNRE8YJS0FHAmO98Gt2vac5OCI9MCp2ueS2/qB+M0rEhERVU4yIBwMETWL1smn6NaS9OaI0cmX4/A4FhosLh6R3vaJ3dGi8Ps="
+"39","在Matplotlib中，以下哪個函數用於顯示圖形？","plt.display()","plt.show()","plt.view()","b3290c5bc8a6a8560483d8c4f6dbf2df30526475467d9c5a0673df42521288aa","資料視覺化","簡單","Matplotlib基本操作","函數應用題","Matplotlib基礎","ABUARhwGKzZYUJLwwCMlNQAVGxwDByalyNST/MeI0v2Z2NuPy9Sh3eacycqI9MCk98SS/deNxMMAFQBGCwc3MRwYDUBGi9bNABUARhkHITZYUJDQ4ojc7j0YABgDATAtGRuT8uuI7NiWw+KN6NOi1Mia9Oo="
+"40","在NumPy中，以下哪個函數用於計算數組的標準差？","np.std()","np.stdev()","np.standarddev()","5d4c6ca0aaea05054812f3ab9ff883b091331c2275df5bd651ade9277e70868c","NumPy","簡單","NumPy統計函數","函數應用題","NumPy統計操作","HglaGxsKbGiW4dsmGgMUOJTB2Y/7xqLXzJHc4IjA06flwZPd64js2JbD4o3YwKPb9Jzz1Yn7/KLw+xoYQR0wJRUPXEGK/MgvAFcHHA4AICACHRANGUZtpcj0kvDAIDEsIACT8uuI7NiWw+KN6NOi1Mia9Oo="
+"41","以下Pandas代碼的輸出是什麼？
+
+import pandas as pd
+df = pd.DataFrame({""A"": [1, 2, 3], ""B"": [4, 5, 6]})
+print(df.loc[1])","A    1
+B    4
+Name: 0, dtype: int64","A    2
+B    5
+Name: 1, dtype: int64","2","78a3846b280f66d6d438b63a08da6c33560d9a64cfc9e605f726f32d6a48602d","Pandas","中等","Pandas索引","代碼執行題","Pandas數據訪問","FB9aBAANH3AtkPXQif3DBRENFS4dDykklMHZj9vMof3lnvbSXonexZjY+IfT4qz+5Jzv9ovWxKTw8icNHQchMpP59o3zxq3B6Zz044vQz6Td6ZDQwoH4zZfN1o3T+3WkwPSS7+aJ3sWY2PiO98EFpPjuk+rVXKv9/DuR4PiJxvtFnu7sh8/Irsz1kuHviv/kl8zkjvHyotnfOFRIT052SzJZVEhPW04PERQRUk9faGEUDQ0YClRkKB4NQlyM7sY="
+"42","以下Python代碼的輸出是什麼？
+
+data = {""a"": 1, ""b"": 2}
+print(data.get(""c"", 3))","None","3","錯誤","a06367aece72214ead3f95fb8e8eca069a6c997fb1812830e8b7427e232ffe69","Python基礎","中等","字典方法","代碼執行題","數據結構","FBAXHEEJITVYEhERQ04gJBYYAQQbR6LXyZ/H/YfR0KTr55HF+IvB+ZTB2QMKF6Hx/Z/z4Yj0wKTwxZvU44viw5bn6AMKF6D5/ZzZ8Iry7K7M9ZHh6Ib71ZXi6gwKCCU0HA2R6NONxMOV5dyB7/ehwfudyuOKw9SlyNSb1ONMJ2OUwfmN88ah7Oec8dCL1umuzPWS4e+K/+SYxuCN9PCt+uiR3uWK7vhyk/n2"
+"43","在Pandas中，以下哪個操作會返回一個新的DataFrame而不修改原始DataFrame？","df.drop(""A"", axis=1, inplace=True)","df.drop(""A"", axis=1)","df.pop(""A"")","2963e8c6447ad7de65d2b2fcadf13ed9bb25711d547a59bc93e805ea8234d23b","Pandas","中等","Pandas數據操作","概念題","Pandas數據處理","FB9aDB0BNGlSOFZETw88KANERUGH0dCk6+eQ0O+LxMqW78SP9eoAIAQYMhoOAyGuzPWR7dmK/OyUwfmN4+uh0ds4keD4gfjNlMTyjNfjoP7en+DRiuDbpNfyMAkbDwIzERQRi+/sICdeHQYHH0ZmAFJVVAkXBzd8QVVUAQEeKCATHEk8HRshaJfiwI7hy6D+3p/g0Yrg26TX8jAJGw8CMxEUEYfT4qD5/ZHL/Ir12qfmyZPy6yolNRE/BgkCC6fB8h0SRh8BNGlSOFZBi9fbp+z6kNfBiND4lffrjcjlACAEGDIaDgMhrsz1kNDJhvvVleLqgM3FocnakO3MiPTApPjul+jt"
+"44","以下Matplotlib代碼會產生什麼類型的圖？
+
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3, 4], [1, 4, 9, 16], ""ro"")","紅色折線圖","紅色散點圖","紅色柱狀圖","815f4acb40d22d72bad690ffff65f6e2f7bcb08958b1334f84e9a0152fae68fe","資料視覺化","中等","Matplotlib繪圖風格","代碼執行題","Matplotlib繪圖","ABUARh8CKzVYUJHv0ojR+Zfj8I/DwqD5+Zz044rhx6flwZLwwIjk/ZXF+43C+aPt1p3M2oDSyGMCFlaAzsaj5cqewO2H5/ZpUgtWQYj0wKTs6p3T8UZmLlJQm9Tji9/hltTQge/3ou/Fnc/LiMz4p+z6k/zNidDel83xgObcotTTkM/2ivLSovD7"
+"45","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([[1, 2], [3, 4]])
+print(a[:, 0])","[1 2]","[1 3]","[[1], [3]]","28150781502737525e908ed737ad0865ce17fff3ac577cbdc634a373d6848314","NumPy","中等","NumPy索引","代碼執行題","NumPy數據訪問","ESJORE9eGajxwZL76IjR+ZfM8AmI9MCn+fmS9OaG5c2X4/CPw8J0pPjul+jti9jpmfntje/loP/7nNn4i9bprsz1k8TDXqHJ55/sxzRfaGFDJJvU44jNwZTC0Y/a/qLf7J/sxzRfZHItmvTq"
+"46","在Pandas中，以下哪個方法用於合併兩個DataFrame？","pd.join()","pd.merge()","pd.combine()","b57a650f6aafdc7ef9404bb8a3acc5b0f17398b9d2da1849f69871d7244fd40d","Pandas","中等","Pandas數據合併","函數應用題","Pandas數據組合","AB1aBQocIyRYUJLwwD4lLxQYB4zXw6PV2J/i1Ir+zKXNzJHtxovEyjQYAAkpHCUsFZ7u7In4/afD7JvU44vqwpXmzo750qHE2Zz04ysPMCA2CxUFCor87Jfj8IzX7qHB+5/8/orK3qTw8pHt3ovUzZXx44Hv3Kzg/Jzk4IvT8aLw+wQMQQQrKB5RXY73waHeyp/i1Ija5qTM7JPy64vUyZTEwY7516Ly5ZbI5B8KaiIfFBYBAQtsaJTB+Y73wRQgHh0VG4j0wKfY4JLS+YjS+JbK4Yvv7A=="
+"47","以下Python代碼的輸出是什麼？
+
+print(sorted([3, 1, 2], key=lambda x: -x))","[1, 2, 3]","[3, 2, 1]","[-3, -2, -1]","5ed9bee10943bb8b376e4ad7430c27ca940fd5595cb9764161b92a4774738539","Python基礎","中等","排序與lambda函數","代碼執行題","函數進階","AxYGHAoKbGiV/smO+taizfme8c8ECz2k98SS/deJ3sWYxuCN9PChwcycxOWK5tOp0dGd6N2G5c2W9+aN1eGnwfKc6MCG7t2k8PKQ1uSL6dGUwdmH0+IvJAmc89WJ+/yn6NYYCQIMICBQAU5IQhar/fyc2uuH0dCk6+eSx+CLxMqV/PeP286j2/SRxsiK7vii8PuR88+I6eWfxfiO4fyh+/+f7eqJ8sen/PCT7ciLwcKXzdSP9eqs89Cc9NSK0NqkwPaR4N+L4OaW9+aN1eGr/fye79CI+/Kn5sWS5OaJweaV/PeP286i3dyRzsOK0Nqk1N6R4N+L9M6W9+aN1eGr/fyewfiJ8Nin6NYvW0NOdm1QSCmL7+w="
+"48","在Pandas中，以下哪個是正確的數據透視表(pivot table)操作？","df.pivot(index=""A"", columns=""B"", values=""C"")","df.pivot_table(rows=""A"", cols=""B"", values=""C"")","df.crosstab(index=""A"", columns=""B"", values=""C"")","7e7e47b231ad533cc4563761bbbda83691d23bb8afb97cc4d4b43c5396ae96e8","Pandas","中等","Pandas數據透視表","函數應用題","Pandas數據重塑","FB9aGAYYKzVYEBoMChZ5YzFbWEgMASg0HRcHVU0sZm1QDxUEGgs3fFI6VkGJ9uun3dqTytWJ3sWW7MyO/PStwf+R0v6Hz+yn4/SQ1fOB+M2V1/eN3+kFpPjukNXzicb7lu/ELA4aJQcCGBkNiPTApsTbkdT6gfjNMpz8/4j0wKTk1pDQ74vE/ZTE6I/t1KLXwJ7u7Irm06Tg9JvU4y2hyeee7uyK7vilzeWT6tWI0vE0GAAJKRwlLBWe7uyK7vii8PsQDkEeLTcfDSscDgwoJFhQkv7WiPfUl+PwjeDtotTIn+zHBgAgJAiR9OSL1smn6NYGBxgdq/38n+zHDAEoNB0XB4Dv4qD5/Z/sxwwBKDKT+fYMCUAnMx8KBxwODGxoluHbj/vGotfMkdzgiMDTpPj/k93rh+T6l/fzj/XqocbNn+HQgNLIpcj0kvDAidDplu/IjebbofrKn+HQif3eqPD2nM75huXpl+Pwi+/s"
+"49","以下Seaborn代碼會產生什麼類型的圖？
+
+import seaborn as sns
+sns.heatmap(data)","散點圖","熱力圖","直方圖","229509585eb98cd1ae6bac10de610fcb973cab6a1163278a498f5c728e858041","資料視覺化","中等","Seaborn繪圖函數","函數應用題","Seaborn繪圖","AxcHRgcLJTUdGARARovD/JbszI/7xqLXzJ7NwofN+ab2yJHi9IvY15/F+I3B7aHx95/h0In93qbv0J3xzIr87Jfj8I3v0qPV2JDV54fn9qnR0ZPM1YH4zZn57o3X1qPV2J/i1Irh66nW75Hk+YjR+Zbq7o/16qPayJDj9Inu46f475Ht2Yr/15bszI3v0qLp0ZzI54zuxg=="
+"50","以下Python代碼的輸出是什麼？
+
+from collections import Counter
+print(Counter(""banana""))","{'b': 1, 'a': 3, 'n': 2}","Counter({'a': 3, 'n': 2, 'b': 1})","['b', 'a', 'n', 'a', 'n', 'a']","c781c845e40addc38db7ad1975acc0e22f48c1f6e972b69ee60dcb4fd38f6a32","Python基礎","中等","collections模塊","代碼執行題","標準庫","MxYBBhsLNqfo1hcHAwIhIgQQGwYciOzgldj+jNfDo9v0nczoiu7PqNHnm9TjidDplu/IgMfmotTInPvHiv3MpMj1kdjihvXgk/n2KwAbKjUVC1xKDQ8qIB4YVkGJ8sepz+2R8/GK/MGV+f8rABsqNRULkdjihvXgn8X4jerYoPndnPjtiv7vp9/2kejki+nWl9XSjeDkocTGnPPSiOH6pur9ksTOiNH5k/n2jub9oczAkPTxiu7PpMD0nNnOiN3Dn8X4jvPtreDfntDSiOz+Ah8MGhwKHGw6UhhWUk9daGFSF1ZST1xoYVIbVlJPXzlon8X4gM7Go+XKWxVKiun+pv/HR47Dz6v9/FsaSorp/qb/x0aOw8+r/fxbFkqK6f6m/8dFjsPPp8Hy"
+"51","以下Pandas代碼的輸出是什麼？
+
+import pandas as pd
+df = pd.DataFrame({""A"": [1, 2, None], ""B"": [4, None, 6]})
+print(df.fillna(method=""ffill""))","   A    B
+0  1.0  4.0
+1  2.0  4.0
+2  2.0  6.0","   A    B
+0  1.0  4.0
+1  2.0  NaN
+2  NaN  6.0","   A    B
+0  1.0  4.0
+1  2.0  4.0
+2  2.0  4.0","ca76e4988edfa196575ae5aefc585e649a984805b46829ded388d7c27f561e02","Pandas","中等","Pandas缺失值處理","代碼執行題","Pandas數據清洗","FB9aDgYCKC8RURkNGwYrJU1bEg4GAihjWZ7gwIrnyaTg6JHJxIvBxJfj8I7516Ly5ZHt/Yj+wqbMw5HM3ovE/Z/F+I3i3aPV2Jz95YvWxKTw8p318Yn4+5XdxY3v0qHg25zx7Yj78qT59JPy64n4+5XdxY3v0qfB8pzowIbu3aTw8pDW5Ivp0ZTB2YfT4gWk+O6T8uuJ6O1DkdXkgNLMpsTbkdT6XKv9+Z7u7IjS/qTUyJHo04bm6pXY343q66PDypz95YvWxKnR9ZPy64vE/UKWyOQti8zWl+Pwj8PCdqnR9ZvU54nw45XF4VmA0s2m6v2T1NWL4PCV+ciAzcWh4Nuc8e2I7P6k+fSQ0O+G5c2X4/CN79JwovD7"
+"52","在NumPy中，以下哪個函數用於計算兩個數組的相關係數？","np.correlate()","np.corrcoef()","np.correlation()","6bc0af87600ed3eed1226fda9d4862ff47b048098bae5e41e7a7ae52f1106a8d","NumPy","中等","NumPy統計函數","函數應用題","NumPy統計操作","HglaCwAcNiIfHBJARojc7j4MGTgWivzsl+3cjvnSrOn4ntr/iuvtpPDykv3XifHFl+Pwj/TWrdbsncvqifv8pu/QnfHMid7Flf7JjvrWp8HyFwRGDAE2MxUVFRwKRm2m5NGS/tOG7MmX1+ON6sehwfudzOiI2Omn5cGT3euJ3sWUw+aP9Nat1uyWyOQBHmoiHwsGDQMPMCgfF1xBi9bJp+jWOh0CPj2m6v2SwPaI/teV/smO+tanwfI="
+"53","以下Python代碼的輸出是什麼？
+
+print({x for x in range(10) if x % 2 == 0})","[0, 2, 4, 6, 8]","{0, 2, 4, 6, 8}","(0, 2, 4, 6, 8)","c19f3194026d6eb494cb6f6dfec12b22ba943ce871339911ec20a62fcf51c6c4","Python基礎","中等","集合推導式","代碼執行題","高級數據結構","CwFUDgAcZDlQEBpIHQ8qJhVRRVhGTi0nUAFUTU9cZHxNWUQVifbrpcj5kejkh9/Hlen8juHGofH+nMjngNLIpN76k/zwiMzRlMH0je/loc31nOTDHQ8qJhVRRVhGivzslvD0jvPnocDGn+HQiPTAqOv/kfjnjcTDleLUjsLKo/Tgn+r0ifbrOkBVVFpDTnBtUE9YSFcTp8Hyn8fAierLrsz1nfPpi9TJluHbj+vPofv/nu7sgNLIp/n5kNPKi8HCl83Uj/XqreH2nM7niuHrqfPEkNDii9TNk/n2"
+"54","在Pandas中，以下哪個方法用於對Series或DataFrame進行重新索引？","reindex()","reset_index()","set_index()","d06deafd80ea64fdfee69484a18fb977b230e260cf38e767009839e94f5bad50","Pandas","中等","Pandas索引操作","函數應用題","Pandas索引","AhwdBgsLPGlZn+LRid3RpuTRkv7Ti/TMIxwGAQodosnmPRUcDig2IB0cnejdhuXNmf75jvneo/XSnMj9gNLIpP/WkNPKiND4mNf+i+/vovbLnP7IiebSpPjTnfHLifDjlcXhi+/sNiQDHAA3BgAgJAhRXY7516Ly5Z7gwIn4+KTA/pP92YvNzJfN1o3T+63G/Z7Jxojs/qjL4ZzC4onexZbswI761qP10pzI/YDSyDIVDSsBAQohOVhQkv7WiPfUl+3cjvnSofH3PRUcDig2IB0ck/LrivzBlfn/juf4oeXqnPTjiubTqdjUk9XBicb7l83WjdP7p8Hy"
+"55","以下Matplotlib代碼的作用是什麼？
+
+import matplotlib.pyplot as plt
+fig, (ax1, ax2) = plt.subplots(1, 2)","創建兩個獨立的圖形","創建一個包含兩個子圖的圖形","創建兩個重疊的圖形","0473458cfb0a1f4865328bbfbfa5e810cc09557b872cd5b63516da5e129ba92e","資料視覺化","中等","Matplotlib子圖","代碼理解題","Matplotlib布局","ABUARhwbJjEcFgAbR19oYUJQkeHai//7lMH0je/ldanR9UaN5/mj2/Sc2fiK8tKmxsuSyNOB+M2YxuCN9PCg+fCc9OOK8tKkzduR2OKG9eCV6/iM1+6hwfuc+O2K/u+k9dCR6OSL6dGV5eKN3+Os8NGe7uyJ+/ymxf2X6O2L3+GW1NCH0+Ktwemf2t2L1eem0sWT8uuK+d2X7dyO98GhyMWcz9KL1sSk8PKR5OqL1OqV/N2N7+Wg+daf+vqKw9Sk7O+T8uuL2NeVxNaL7+w="
+"56","在Python中，以下哪個是生成器函數的特徵？","使用return返回多個值","使用yield關鍵字","使用@generator裝飾器","2b2aa9ad2e70e64050164fb3a9dad568dda33c4f474bc0eb8602deded65f73f3","Python基礎","中等","生成器","概念題","函數進階","l+3rjuf+odjYnPPVifv8pur9k+HWi/r0luHbjNLRo9XYAB0NAwqt1uyQ+d2Kw9Op8PWQ0OKI3O4CHAAdHQCt1uyQ+d2Kw9Oi8PsNAQoCIKfs+pLyxIvF3ZX+yY761qPb9Jzr34fPyKXI35DX8ovp2Zfswo3m46PK8J/x44DSyKb0z5HW44vY6ZTB/4zX7qLt0ZHe14j67Kfp+5HW8Yje6pX46I/16qHdwJ/i0YjX+KbK9ZH32IblzZP59jgWGiwuHp/G+onyzQEXHBoNHQ8wLgKR1/WGzfqk6dGb1OOK+f6X7dwaChoxMx6Ry/yK9dqk1OOR6OSLxP2Z+e6N19ai3fORy/yK9dqlyPmR6OSLwcKXzPCH0+KswfydzOWJ9uuk+cyR09WK/MGV+f+P+/GiyeCc7cCM7sY="
+"57","以下Pandas代碼的輸出是什麼？
+
+import pandas as pd
+df = pd.DataFrame({""A"": [1, 2, 3], ""B"": [4, 5, 6]})
+print(df.apply(lambda x: x.max() - x.min()))","A    2
+B    2
+dtype: int64","A    3
+B    6
+dtype: int64","0    3
+1    3
+2    3
+dtype: int64","a04db1142d2b6bbff5cad121fe62041f6777b3eb3d9ebb49588c01aeef1bbe92","Pandas","中等","Pandas apply函數","代碼執行題","Pandas數據處理","FB9aCR8eKDhYFRUFDQolYQhDVBBBAyU5WFBURU8WaiwZF1xBRov0zDQYAAkpHCUsFZ7u7InBy6XI+ZHg+IjDyJft3AQOAyYlEZzz1Yn7/K7M9ZzA54nq1pbW+43n+aPb9J/o6IrK46TwxZH644jYwZXJ+43v0qD4+5zDxozuxgCV8eOP9eqi3fCc0M+K7vin6NZHh9Piot3wnMTniu74p+jWRYfT4qH23pz01In263Ofxe8qiubTpur9kvTvi+DmlfnIjvfBcq7M9ZL074v0zpX5yI73wXCuzPWR38GLxP2W4dtajO7GpOvZksXLifHRlufojvfBBWFQWVRaZSxkYVBZRmILGj0xFUNUAQEacnWT+fY="
+"58","在NumPy中，以下哪個函數用於生成正態分布的隨機數？","np.random.normal()","np.random.gaussian()","np.random.normaldist()","ffdadae81de1cad3c41ed2b89bc232aaf1cb684d82a1e84246b6860d67620843","NumPy","中等","NumPy隨機數生成","函數應用題","NumPy隨機數","HglaGg4AIC4dVxoHHQMlLVhQkvDAIDEsIACQ0MKJ0OmW78iP+/GiyeCf2cuJ68+k+P+R0OyH3umW0OuO+taj2/Sc89WJ+/yi8PsaGEEcJS8UFhlGCA8xMgMQFQZHR6HT/BcERh0PKiUfFFoGABwpIBwdHRsbRm2lyPSS8MAgMSwgAJPy64js2JbD4o3o06LUyJr06g=="
+"59","在Python中，以下哪個模塊用於處理日期和時間？","time","datetime","calendar","5a92563897c868c5761f6cb2ee1f568b4b3b6b8d7df225046b1a8112e9f30569","Python基礎","中等","日期時間處理","概念題","標準庫","FBgADRsHKSSW0dWNzuSi2d8pDRwHASqlyNST/MeI0v2Y4OGP/+ii1tWf6PeK/Min6fud/vyJ3sWUwc+Aye+i6dGc1eKA0sik3vqS5/+K+tqUw/IMDhohNRkUEYvv7yAgBByX6O4aLSwVntnhhs/apc7/nMnHieD7lev4jvzjoPzsn+PNifLbpOL1kvHth9LSk/n2HAYDIafY2JHJ5Yr8+pjf9Y7g/qD/65H874n3xqjm6pPz14fT3Zfj8I3o06LUyJbI5AwPKCQeHRUaicblpNHzkuf/ivramPHzjvjLotr2nu/QhvnYpur9ke/SiNH5k/n2"
+"60","以下Pandas代碼的輸出是什麼？
+
+import pandas as pd
+df = pd.DataFrame({""A"": [1, 2, 3], ""B"": [4, 5, 6]})
+print(df.describe().loc[""mean""])","A    2.0
+B    5.0
+Name: mean, dtype: float64","mean    3.5
+dtype: float64","A    2.0
+B    5.0
+dtype: float64","895c025e35e7613cb010ee8e6c0399131de07a865ee2967fdb3dac0dedd82ef0","Pandas","中等","Pandas描述性統計","代碼執行題","Pandas統計分析","FB9aDAodJzMZGxFARob71ZXi6iwOGiUHAhgZDYj0wKf/9pzX34jE5pfMxYDH5qD+0Z/1x4DSyKT8/JLjw4bsyZbszIvv76H4w5zp74ru+KLw+JLA9oj+15XO2ovv76Ld8JzE54ru+KLw+JHz9IvMx5TE+Y761qHT/J/o6IrK46TwxZfo7QoibxQcBwsdByYkWFBaBAANH2MdHBUGTTOtwMif5++K6/KlyNST8uuL/fKV5PON79Ks4PyWyOSI29Sn7uWS8MAvocnnnu7sitf3pO3+kejTXGpxlev4Korm06bq/ZHR3IvZxpX5yF1BXqv9/J3PzTwLNigVCpPy64v545XF+4DQ+qHa7pr06g=="
+"61","以下Pandas代碼的輸出是什麼？
+
+import pandas as pd
+df1 = pd.DataFrame({""key"": [""A"", ""B""], ""val"": [1, 2]})
+df2 = pd.DataFrame({""key"": [""A"", ""C""], ""val"": [3, 4]})
+print(pd.merge(df1, df2, on=""key"", how=""inner""))","  key  val_x  val_y
+0   A      1      3","  key  val_x  val_y
+0   A      1      3
+1   B      2    NaN
+2   C    NaN      4","  key  val_x  val_y
+0   A      1      3
+1   B      2    NaN","0cd7b33dbc2f0b676e30c94886960199ba8105e389dcd2dbb223a4a7f07ae9b4","Pandas","困難","Pandas數據合併","代碼執行題","Pandas數據組合","AB1aBQocIyRYHRJZQ04gJ0JVVAcBU2YqFQBWRE8GKzZNWx0GAQs2Y1mc69+Hz8ik9d6d6MyIyuSfxfiN4MSg/u2e4fGK6+2k8PIwCRsPAjMRFBGM18MvJAmc/P+K7vim68GR+OOJ3sWY2PiL7+yh3diQ9PGK7s+lzvKRxf+K/OyfxfiN4MSi3fkSERGI7P5jMVuT8uuG5c2V5dyN6sehwfs9FRwOKDYgHRyQ0MKHx/yV1OyN88ar/fyf/eiL1eGmxemS9vOLy+uW5f2M1+6s4PyWyOSK4sGk4NIfDRZTZgBSlsjkGQ8oHghERYfT5qD/9pHzwgsIda7M8JvU4xglLS8ASVuA0sylzv+c78UKInOfxf2L7+w="
+"62","以下Python代碼的輸出是什麼？
+
+class A:
+    def __init__(self):
+        self.x = 1
+        
+    def __call__(self):
+        return self.x * 2
+        
+a = A()
+print(a())","1","2","錯誤","86b8b1900749bbf2ae941fa1a3a6f423e9e54a0c150bfc4ce8193a22bfd099fc","Python基礎","困難","可調用對象","代碼執行題","面向對象高級","l+zCjNfuocH7kNX2isDeps7QkNLpMRsiERUYNzCI0viWyuGO9uyr/fyR3dqGz9qm6v2Rx8mK+sqV9tuM1Muhwv+c89WJ+/ylyPmSwMyG5uqY08uP+8anwfKc6MCG7t2k8PKQ1uSL6dGUwdmH0+Ilp+jWNYHO8KPb9J3M6Iruz6Tf35DW5IH4zRFRXYDF0aPV2J3O7g6J3sUvJhcJAwIbHpbvzY7c+6v9/JHL/Ir12jIVFRJGF05uYUKWyOSK4/dwUFNUWk9TZHOT+fY="
+"63","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+print(np.vstack((a, b)))","[[1 2 3]
+ [4 5 6]]","[[1 4]
+ [2 5]
+ [3 6]]","[1 2 3 4 5 6]","1bbf7a88ffa1b099701973c0be70f1884d06fe8a13af656ca362c8c69c456afd","NumPy","困難","NumPy數組堆疊","代碼執行題","NumPy數組操作","HglaHhwaJSIbUV2N6NOi1MicxO+J+/ymxf2S2tCG1daV5/aP9Nqi18mc5PmA0syp0fWb1OaL5MeX7/6L7+yh3diQ9PGK7s+lzvKRxf+K/OyfxfgJivzII5bh243qx6HB+53M6IjY6aflwZPd64H4zR4JWh4cGiUiG1FcCUNOJmhZnMTvisDHpPDokcjpidLLlvHkjNfuocH7SwxbiPTApcr1k97CiNH5l8zwh9PiocTGnczFiMLopcj5nMnjiNzuEZbI5IjC6KXK9ZzJ44jc7hKa9Oo="
+"64","在Pandas中，以下哪種方法可以處理時間序列數據的重採樣(resampling)？","df.sample()","df.resample()","df.timesample()","a9ced4f0cfac96791b4992f25ae0d30b9360801b5ee29e45bed9eff27738b26f","Pandas","困難","Pandas時間序列","函數應用題","Pandas時間序列","FB9aGgodJSwAFRFARojc7iAYGgwOHaD53Z7gwIn4+Knp7JP46Yjdw5nv543V4aHJ55/h0In93qj39JLmzojs4pfj8I7516Ly5ZbI5IrAx6T/1pDTyov0xpbg9oH5/aH7/5z8/4n7/Kfj45zV5ojL2pf7zozX46HR/J7u7IbO/6b+/pvU54r6ypXf9ofT4qH/7p/b54n54aflwZL79Yb5yJb274/t1KLu/5/o4In7/Kfj45vU5o3EwxQfWhsOAzQtFVFdj/vGotfMkO7Aicfbp/rEksDMgfjNFB9aHAYDITIRFAQECkZtpcj0kvDAPiUvFBgHj/Xqounpn87+ifj9p8Psl+jt"
+"65","以下Seaborn代碼的作用是什麼？
+
+import seaborn as sns
+sns.pairplot(data)","繪製數據中每對變量的散點圖","繪製數據中每個變量的分布圖","繪製數據中每對變量的相關係數","de68fe6f1844189dc97a1237b4be97516a55c7b5339ca39e0fb0e09d0da6e83e","資料視覺化","困難","Seaborn多變量繪圖","代碼理解題","Seaborn繪圖","AxcHRh8PLTMAFRscR0ehxs2f4dCI+uyn5sWT0cWG5/yW7MyO/PSg+d2f2+eK3smp3vOd7+CJ3sWW7NeB1PCh3eaWyOSL1uKk7NGR2OKG49OXzu6M1+Sj+NqR19WJwcuk8PKcxuWHw86X4/CN5+ih+fOc6P6M7sao8OCS8MCK/MGX0dqO4cyj9dKf9M+J+/yn4+OR4OmI2tGX4/CN2MuhxMeWyOSK4euly9yR0cSLzuiW8eWN7/+g+/aR08uHwM6o9/aQ0eSH0tKX4/CB+PKg/vKc5uSJwcuk8PKcxuWHw86X4/CN5+ih+fOf9+2J3cWi8Ps="
+"66","以下Python代碼的輸出是什麼？
+
+from itertools import permutations
+print(list(permutations(""ABC"", 2)))","[(""A"", ""B""), (""A"", ""C""), (""B"", ""A""), (""B"", ""C""), (""C"", ""A""), (""C"", ""B"")]","[(""A"", ""B""), (""A"", ""C""), (""B"", ""C"")]","[(""A"", ""B"", ""C""), (""A"", ""C"", ""B""), (""B"", ""A"", ""C""), (""B"", ""C"", ""A""), (""C"", ""A"", ""B""), (""C"", ""B"", ""A"")]","efcdd5c0a6e1c2879992e8aa8a616a02362e22513a00a27cd3bdfdfa54aec35b","Python基礎","困難","itertools模塊","代碼執行題","標準庫","GQ0RGhsBKy0DVwQNHQMxNRENHQcBHWwoBBwGCQ0CIW1QC12A0Pqh2u4QAA0dDyYtFZ3MxYb786TK35Pq1Ryj2/Sf/eiJ8s2n/uuR4PiNxMOV5dyB7/ehwfudyuOKw9SlyNSb1OMeITMdDAAJGwcrLwNRViktLWZtUEtdgND6odruWzUqLEyg+d2f/eiJ8s2o5c6R0smJxvtCnu7sieDWpPjum9Tji8nyK1FWKU1CZGMyW11ET0ZmAFJVVEosTG1tUFFWKk1CZGMxW11ET0ZmA1JVVEosTG1tUFFWK01CZGMxW11ET0ZmAlJVVEotTG0ck/n2"
+"67","在Pandas中，以下哪個方法用於計算滾動窗口統計量？","df.window()","df.rolling()","df.slide()","8db6eb5fcef598062972d7558e2fb69c76de7834875f62f6949d929e24a36627","Pandas","困難","Pandas窗口函數","函數應用題","Pandas時間序列","FB9aGgACKCgeHlxBifbrEREXEAkcivzsl+3cjvnSrOn4ntr/idX6pPvsk8L4i8vil8zFgMfmrcb/nu7sifj9p8Psm9Tji+rClfbbjNTLrOn4ntr/iMn/pPvskdHci9nGk/n1j8jVocrln9zxidTSpMfXk8XmjcTDFB9aHwYAIC4HUV2N/eIgJ14KGAELC2xolMH5jvfBFCAeHRUbiPTAp9jgktL5iNL4lsrhi+/s"
+"68","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([1, 2, 3, 4])
+print(np.einsum(""i->"", a))","[10]","10","[1 2 3 4]","f74a59124c975721def7b2b467546a614b3835a50a05d1f4b389c8690bbd315f","NumPy","困難","NumPy愛因斯坦求和","代碼執行題","NumPy高級特性","HglaDQYANzQdUV2O98EKNB0pDYzXw6PV2J/i1Irx86nR9ZLs9Ivf4Zbv243yyKLw8pzm5IjawKTe45Py64vD/JbszIvv7GYoXUdWgM7Go+XKnMTliNrmpMzsHY7e7KHT/JbI5Ij1/Kblz5L+0wA0bwMMGUAOR6fB8pzowIbu3aTw8pDW5Ivp0ZTB2YfT4iWm6v2R7eyJ8OGUwP+N/eKi2d9IX1pEXW91TUhEh9Piosjwnc/NiNvUp+7lkvDAX3Si8Ps="
+"69","在Python中，以下哪個是上下文管理器的正確用法？","with open(""file.txt"") as f:
+    data = f.read()","using open(""file.txt"") as f:
+    data = f.read()","context open(""file.txt"") as f:
+    data = f.read()","2c4a64d7077399a8198efdbb13d64d186423d8cff9e8403d1b5b459f0a1a9702","Python基礎","困難","上下文管理器","語法題","文件操作","leXcOBYaLC4enczFgNLIpcjzkNDkiNLGl9fVj//oodjYnu7sicPnptLDk/zHiPfUluHbHwYaLKna55Hnyo3EwwcQAACHxNqk/9yR58CK/+SX286M0POi1/edz96K8uylzcaT/MeL+s2Y29+Ows2j48qQ4/SG+M2uzPWR5dyK+f6X4MiP+/Gj1MCczNCL19un6NaRzu2I6eWT+fYdHAcqJpXr+AsAADAkCA2Q0OKI3O4gAAAAAACg+d2e4MCJ+PilyPOQ0OSI0saX19WP/+ij2/SQ4/SG4/Gk3e6X6O0="
+"70","以下Pandas代碼的輸出是什麼？
+
+import pandas as pd
+df = pd.DataFrame({""A"": [1, 2, 3], ""B"": [4, 5, 6]})
+print(df.eval(""C = A + B""))","   A  B   C
+0  1  4   5
+1  2  5   7
+2  3  6   9","   A  B
+0  1  4
+1  2  5
+2  3  6
+C = A + B","錯誤","48c65e641184bf93d5fd2b2eccd426cbf4befe3bcbf1541342797874aaccb391","Pandas","困難","Pandas表達式計算","代碼執行題","Pandas高級特性","FB9aDRkPKGlSOlRVTy9kalA7VkGK8uwFEQ0VLh0PKSSUwdmO2NWhy9CdzOiK7s+n5smR4Pgtq/38nPHeiu74pvLDNY3n+aHT/DuR4PiJ3sWV6/iL7+yh3diQ9PGK7s+lzvKRxf+K/OyfxfgriubTpur9kejTiNzuK0xYSFhCZHgtlsjkiNvUp+7lkvDAivzBlfn/jeProdHbOJfo7iynwfE6kNDmi8zWl+PwLA4aJQcCGBkNjO7G"
+"71","在數據分析中，以下哪個不是常見的數據清洗步驟？","處理缺失值","數據標準化","數據可視化","c67f3fdde78beb71d46d22d5691befd15d53774261924f48d1aa22b29f396bc7","數據分析概念","簡單","數據清洗流程","概念題","數據預處理","luzMjvz0oc7fkdL+iuLSpcj0kvDAiNH5lurujtfrovXnnu7sicPhqNnmm9TjhsTNluHbjvrWotLqnPzuifDUpOL1kfnnicv/l+PwjsLLrejvmvTqitb8qdbyk/LriNH5lurujtfrovXnn9nNhsfbpPz8kuPDht3Ul+nyj9PUoeXBnPTUjO7Fqensk/jpidHxlcHMje/Sp8Hxke39iP7CqPf0nMzoiNH5lurui+/votTIn+fyhs/apO7ynNXmiMval9T9i+/sotTIn+fyicbdp8rvkeT5h8TblcHMgM3FrOfmnvbSiOf9pM7Mkd/KiezKl+PwjNfurcLYnPzugNLIpc3/kvTmiN3DlMDrgM3Foc31n//EivLsp+XBkvv1iPzEls3jjNfDp8Hy"
+"72","在Python中，以下哪個函數用於生成一個序列的累積和？","sum()","cumsum()","np.sum()","97c7d18c08e14c44a68b8a3bc3af39b8cfd18f0733dc32be128805b138b513fc","NumPy","中等","NumPy累積函數","函數應用題","NumPy數組操作","EwwZGxoDbGiW4dsmGgMUOJbszI/a6qPb9J/i0Ynd0a7M9ZP8x4jS/ZjR/I/B+aLUyJ7B7Ij0wKbE1pPB4ovWzZP59ozR5aHn8pbI5IreyafmxZL914nxxStIWEhdQmRyXFlANYDSyKT1z5PcwIntzJXr+I73wR9wXFlFQ11CZHBbS19bQ051akJSR0NbM6v9/Jz52zRfaGFDVVReQ051cS2a9OocGylpWZzz1Yn7/KnY8ZPG+InexZbh243V4aHJ557u7IjW+aTi9ZvU4wA0bwMMGUBGiNzuPgwZOBaK/OyY0fyPwfmi1MieweyK68emxNmT0NKL1s2X4/CN6NOi1Mia9Oo="
+"73","在Pandas中，以下哪個方法用於計算兩個Series或DataFrame之間的相關係數？","correlation()","corr()","correlate()","650977135be23906511a74b6ba1c566781328fea1f391de72ab46c66e9b71815","Pandas","中等","Pandas統計函數","函數應用題","Pandas統計分析","ExYGGkdHotnfKRUGCw83pcjUk/zHiNL9mNH8j8H5FyQCEBEbiebSBRENFS4dDykklMD/gfn9o9rIkOP0i9HGp+XBk/LriNL4lsrhi+/sofH9n+LUKw8wIDYLFQUKgfjNldf3gMfmo+/nn/3oifLNpPjukNHkh9LSl+Pwj/TWrdbsncvqifv8pu/QnfHMgfjalcn5jvnSFyQCEBEbgNLIpN76nMDnierWmPHzjeDIoPnwnPTjPAs2KBUKk/Lrid/5me7ojNDsotTImvTqDAE2MxUVFRwGASppWZzm5AwBNjMVFRUcCkZtpcj0kvDAPiUvFBgHj/Xqounpn87+ifj9p8Psl+jt"
+"74","以下Python代碼的輸出是什麼？
+
+print(list(zip([1, 2, 3], [""a"", ""b"", ""c"", ""d""])))","[(1, ""a""), (2, ""b""), (3, ""c""), (None, ""d"")]","[(1, ""a""), (2, ""b""), (3, ""c"")]","錯誤","56c2f9d4a1a96824e902576250fbe443307ed14d55cf36c58b8ea0c8121fa0c1","Python基礎","簡單","zip函數","代碼執行題","內置函數","ChAEQEaLw/yW7MyN3+mh5eqc9OOK4eupz9SQ08yL9MyYyNWM18Oj2/Sc8euI2uSn+eqR5OqIzNGV/PeP2uqr/fyRy/yK9dqo8OCQ0vSLwcKXzPCP9eqs/t2dz8uK9+yi8PuT/dmLy+6YxtmM1M2h8f2RxcmI9MCo5c6R0smK/MyV6fiO9uyr/fwDHRhHR6Ld853PzYnyxKbv1JPy64vL7pjG2YzUzaHx/ZHFyYjs/qfK75vU44v7/Jfs0Y3L9K3l6J7u7Irrx6bE2Zfo7YvY6Zn57Y3v5aD/+5zZ+IvW6a7M9ZPEw4r8wZX5/43n+azg2J7u7Ib786TK35LwwF2r/fye2MSL1Mik8PKR4PiG5emX4/CB+tmh+9af7MdbgfjNlvD0jNTLPigAUV2N4MSi3fOR7f2I/sKk+fRHje/locTznsDIgNLIpsXpkvbziNzuK1FFRE9MJWNZVVRAXUJkYxJbXURPRndtUFsXSkYzp8Hy"
+"75","在Matplotlib中，以下哪個參數用於設置圖形標題？","title","name","label","083f3b993737616dc2004e8a7b3cb6758d6b7e9b0a0c6989da702603197c9a31","資料視覺化","簡單","Matplotlib圖形設置","函數應用題","Matplotlib基礎","leXcJQ4aNC0fDRgBDYr87J/F+BwGGigklfb3jvrWo9XYn+LUh8bpps3XkfT5i/njltHtgc7ip8HyncrjisjGrsz1BAQbQDAoBBURQE0jPWEkEAAECkxtp/jvFRBBHSE1Lw0dHAMLbGM9AFQ8BhooJFJQl+jtACUsFZzm5AMPJiQcnPvrifv8pOzRnej2i8TKlMH+jNflotf3nczFidzWp+zwk+HWi+rbl+Pwjf/Fo//ZmvTq"
+"76","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([1, 2, 3])
+print(a.dtype)","int","int64","float64","39dbf7eb24ec0e2c7fb52b2fc4ca47bf9290be623a87155a89f56747eb5378b6","NumPy","簡單","NumPy數據類型","代碼執行題","NumPy基礎","EVcQHBYeIanP7ZHz8SAxLCAAkv3XifHFEZ7u7In7/Kfj453J8YvaypP59o3zxq3B6Zz044vQz6Td6ZDQwoH4zRGf7MeL1sSk8PKR5OqL1OqW7MCO+taj2/Sf4dCI28CuzPWS4e+K/+SV/MKO+tai0uqQ1faK8M+n6NYdBhtYcK7M8ZH0x1hwpc30k9vUifHwlMH+h9Pnp8HynPHfhsXQpur9ncnxi9rKlfbbgOzTodrQnsfTiNv1qfD1k/3fgfjNlMTyjNfurMncn+zHBgAwd0Sf/P4GADByQpr06g=="
+"77","在Pandas中，以下哪個方法用於檢測缺失值？","isna()","isnull()","以上兩者都可以","fe2b975b1b7fa5f8cfaab099056c56bbcfb42d80d55373ea1d63c869c63b167f","Pandas","簡單","Pandas缺失值處理","函數應用題","Pandas數據清洗","GQoaCUdHodP8EAcGGgIoaVmQ99WJ9usRERcQCRyK/OyX7dyO+dKi69KfzMSI0v6k1MiR6NOJ3sWW782O3Pur/fyc2uuK7tWn6NaRxuOLwemX1P2N7Nej2/Sa9OqG7t2k9dCR6OSI0viWyuGA0Pqh2u6dzOiK7s+p+P6R5vAqJTURPwYJAguiyeYqERoGCzekzduT4++J3/mV6fiP9eqh+fOe/NaK7vgFEQ0VLh0PKSSW8eI7ChwtJAOWyOSK6/KlyNQgGhoLrODYntDSh8f2pc30k9XBid7FlfnIjvfBo/3KnNDZiPTAovD7"
+"78","在數據分析中，以下哪種圖表最適合顯示分類數據的分布？","散點圖","柱狀圖","折線圖","43a4500e6ac6c61ea6e50a0cbabb13f7811df1cccbf2d54ff4cf3462428ed855","資料視覺化","簡單","圖表選擇","概念題","數據可視化基礎","lubFj+Tuod3mn+zHhs/rptTDkeDph+XfluzMjvz0ocn2nMzriPTAp+z5kNXci9jXmNjcgc7wod/7lsjkisDHpP/WkNPKiPzEluDEjfPeofDlntDSicHLpPDyncnxi8zkl+Pwgc/Vo8/3n/z+ifv8qPf2l+jtiNHimcLqjfP4oPnLkdLpiPrsp+bFncnAieD7lfzdje/lrcHTns7kh8DOqPf2kNHkh9LSl+PwgfjyoP7ylsjkieTcpsfjkfT5ivz6mN/1j/vGotfMkNXHiMr+qPDak9LjiNH5lurugfXGotjykOL7iPTAqd7zkeT5hvLplfLWi+/s"
+"79","以下Python代碼的輸出是什麼？
+
+from collections import defaultdict
+d = defaultdict(int)
+d[""a""] += 1
+print(d[""b""])","1","0","錯誤","34e9abc2ba967a29b896871320b1440e0405bc1b0bb368b2d9a7197ef5b32b7c","Python基礎","中等","defaultdict","代碼執行題","標準庫","FBwSCRoCMCUZGgCO98EnLhwVEQsbBysvA5/cyYrPzqXI1JPy64r8wZX5/4HO8Kv9/Jza64n26yUZGgCP9eqh7OCQ1faA0silzf+R9MeG7OuV7PuM1+Oh7Oic6MCI9MCo/cyS8e2B+M2W5feA6MShyuWc/d2K1f6p2cud5dqK/OeYytKM1eag+fCc9OOG1dyp2vSR6NONxMMUHBIJGgIwJRkaAEAGADBolfDBjdTUoPnwnPTjCwsiIAUVAAwGDTCuzPWR7dmH/9mY0/mN79Ki2d8QGhxHR6Pb9J7B+Inw2K7M9ZHl3F6nwfKc78iJw+CuzPWT/dmG7OuV7PuM1+Oh7Oic6MCI9MCo/cxWCk2I3cOfxfiO8+2s/uSc7/ZfjcTD"
+"80","在Pandas中，以下哪個方法用於根據條件篩選數據？","filter()","query()","select()","569b0983b5f52834fed36a9400d8d08ccf9035e6aeea969117f4d69a5e0e9cf3","Pandas","中等","Pandas數據篩選","函數應用題","Pandas數據訪問","AQwRGhZGbafo1iQJAQolMpTB2Y/7xqLXzJ/U0Yn93qfS5JDT2Ynr6Jn4zI761qLS6p7u7In4/afD7JvU44vqwpb30Y3g+aD58Jz044rD06bc35DQ3Ybl6Zn44I3T4aD87J720orhx6flwZvU44b71ZXi6o7U0az3w5/W9YvV8qbq/ZzJ443Ew5TH/43J7Kv9/B0SRh4bITMJUVYpT1BkcVBfVCpPUmRwQFtdi+/sIigcDREaR0ei18mfx/2I+uyn5sWSyNaI19uW0e2P3sqiyeaewMqK0tGm39Cd6deG5c2W8eKN5/mr/fwKEQQKDTBpWZ3M5Yn26xERFxAJHInexZbR7Y7V+KLXyZ/H/Yzuxg=="
+"81","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([1, 2, 3, 4])
+print(np.argmax(a))","4","3","[3]","3c43b10554ecb4a31d39d0de4ee97d022c3c60b583e71147a7d4aca318050327","NumPy","中等","NumPy索引函數","代碼執行題","NumPy數組操作","HglaCR0JKSAIUV2A0Pqh2u6f4dCI28ClyNSS9O+L4OaV+ciP9eqj9dKcyP2M7sak7NGd6PaLxMqUx/+Nwv6g+d2WyOQOid7FluX0jcvJocHMn+zHW4H4zZX8wo/bzKH95Z/sx1yB+MmV4tSP7dQKNB0pDY761qP09J7u7Ija5qTM7JHW8V6t1/uc0+OA0s2uzPWS4e+K/+SXzOSO8fKi2d9Kl+jt"
+"82","在Seaborn中，以下哪個函數用於繪製分類數據的箱線圖？","sns.boxplot()","sns.barplot()","sns.violinplot()","c393f8e152bbae3bd255b4dc7fba03f102985c1922083694b5148fc7503833ed","資料視覺化","中等","Seaborn繪圖函數","函數應用題","Seaborn繪圖","AxcHRg0BPDEcFgBARojc7iMcFQoAHCqlyNST/MeI0v2XwN6AzNOhyfaQ1faJ+/yn4+OTxt6J89uV5eKP9eqhxs2f4dCM7sam3siT3/WL2NeZ2NuPy9Si1Mif5/KI9MCk6+KR4OmK+cyW7MyN/eKt2tKeysyK7viuzPWS8MCK/MGX0dqN3vuj5cqf4dCJ/d6k+P+R0OyJ3sWW5f2O+uai18mcyOeM7sYyHgpaCg4cNC0fDVxBiPrsp+bFk9HFhuf8lfHygc7wotTIn+fyiPTAp+/Ik+Pvi9jXn8X4GwEdajcZFhgBAR4oLgRRXY/7xqLXzJ7NwofN+aT4/53J8YjR+Zbq7o/16qHx/5/7+Ij+8KTs75vU44vqwpfM5I3/5qD79p7a2YjZ3qTs75H644jk+ZXW8o3VyKD9wJHc4Izuxg=="
+"83","以下Python代碼的輸出是什麼？
+
+import re
+print(re.sub(r""\d+"", ""#"", ""abc123def456""))","abc#def#","#abc#def#","abc#123def#456","bf913491812974bb6668d42f2919d5b484449dd5aedf036336309e99f608c2ba","Python基礎","困難","正則表達式","代碼執行題","字符串處理","AhxaGxoMbDERDQANHQBoYQIcBARDTjc1AhAaD0aJ0OmUwfSN7+Wh7Oee2M6L1van68aS5/SI6eKV8POAzsatwOScyOeK4v2o9fST8uuIzcGW5f2Nwv6g+cKa9OqK8uyo8OCR6OSK+sqV1OSM18Or/fwJFRwbCzYvluHbGk0yIGpSlsjkisDHpPzAne3iivzBlfn/juf4oeXqnPTjifv8pN3um9T0HCExHJ/sx01NZq7M4gccHQcqJpbh20oODCdwQkoQDQlacXdSmvTqivXkp93dm9TjiM3BluX9j/XqotTInNn/itTLpPjunevShubqluLLjuD1o8PKW1dKgNLIpsXpkvbziNzuUhgWC0wKISdTW5fo7Q=="
+"84","在Pandas中，以下哪個方法用於對時間序列數據進行頻率轉換？","convert_frequency()","asfreq()","change_freq()","65fe7d8b2a89a718dff677512dfbead22e5f819e1144fa0858f65782221d9a9a","Pandas","困難","Pandas時間序列","函數應用題","Pandas時間序列","EQoSGgofbGiW4ds4DgAgIAOdzMWI+uyn5sWR2OKI3cOZ7+eN1eGhyeef4dCJ/d6o8MucyeOH5PqX9/OA0ueizuue7uyJ+P2nw+yX6O2K+sqV3/aH0+Kh8fef2+eJ+eGn5cGS+/WG+ciW9u+P7dSi7v+f6OCJ+/yn4+OX6O0NKy8GHAYcMAg2JAEMEQYMF2xolev4CwcPKiYVJhIaCh9saJTB+Y73wRQgHh0VG4j0wKfY4JLS+YjS+JbK4Yvv7A=="
+"85","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([[1, 2], [3, 4]])
+print(np.linalg.det(a))","5","-2","-2.0","a3d8cf5543423624557debfb25799dac897ac6416261f8a114e94f7e4f251c16","NumPy","困難","NumPy線性代數","代碼執行題","NumPy線性代數","HglaBAYAJS0XVxANG0Ztqdjxk8b4idvomeDXj/XqrOD8nPz/itLLovD7kdjiiNL9QgFGj/DHrdjTIi8JQ04mHFxZLwtDTiAcLZbI5Irr8qnR9ZHg+Iv4zpbh2wkLTmlhEhqX6O2L2OmZ+e2N7+Wg//uc2fiL1umuzPWcyeOLzNaVxfuO98F1a0RZWUhdRHdhTVlASEJOcmFNWVlajO7GpuTIkv7TIDEsIACQ0MKJ3sWWzNqB1PCi1MiR3OCIwNOuzPWT3f+I2t2Z2NuPy9Sjw8pURkZfjcTD"
+"86","在數據分析中，以下哪個不是描述性統計量？","平均值","標準差","p值","d4c46dd49af8f0989057f0e60a3257a57515f59736db775f4dab82a9b7cd352f","數據分析概念","中等","統計概念","概念題","統計基礎","AJz01IvWyafo1pLn4Ib78Zb504/a36zp+JDz54DSyKnw9ZLwwIjK6Zbvw47vyaP0wZHc4IvW6abk0ZL+04vFxpjR2Y7FzK3o557u7IvWxKTw8pLO7Yv79J/F+I3B7azg2J7Q0ory7KT+5pHp6Ibs7Jf7zo/z8aPb9J/37YndxaXI8pvU44bjwZXW643n3qPb9J7B+Inw2Kf475Lz24jh9JfS24/a/qLf7J7u7InIxqb+/pfo7Yv98pXk843v0qHT/J/c8YnU0qTH15LwwIv8+Zjf/4/16qLO/5HL2Inu46bFyJzA54fDzp/F+I/7xqLXzJ/754fR9KflwZL79YnexZTB2Y3Q7az32Jz/yor8yKjr25L9zInsypXD0ovv7A=="
+"87","以下Pandas代碼的輸出是什麼？
+
+import pandas as pd
+df = pd.DataFrame({""A"": [1, 2, 3], ""B"": [4, 5, 6]})
+print(df.stack().shape)","(3, 2)","(6,)","(6, 1)","da807b5bf5884ac018a3fa5fe29b36663d9185e3e510c187d023c08ad53e8039","Pandas","困難","Pandas數據重塑","代碼執行題","Pandas數據重塑","FB9aGxsPJypYUJHY6ColNRE/BgkCC6Pb9Jz8/4fTzaf/4pPq1YblzZ/F+I/78aLJ4J3M6IruzwwFFQABJgAgJAhZJw0dByEyk/n2jfPGrcHpnPTji9DPpN3pkNDCgfjNlffrLA4aJQcCGBkNifLNcpjY+FqK5tOuzPWR7d5YocH7nPHriNrkrsz1BxwODS+kzvWcxuWIzNGUwfSN7+WhzfWc5MNZi8TKlfz3j9vOo9v0KhEaBgs3rsz1ke3Zi/njl/L0jvfBbHdcUJfo7Q=="
+"88","在Python中，以下哪個是裝飾器的主要作用？","增加函數的執行速度","修改函數的行為而不改變其源碼","減少函數的內存使用","d27c202803bf509f97a184a842c93c78a3056895b9ee24fd499bae6b535f8657","Python基礎","中等","裝飾器","概念題","函數進階","mNrpgczQodjYn+zHPxcwKR8XkNDCid7FlMH0j8fArOndkdzgicblpMz2m9Tji+rCl+PwjNfVrOfxncn0iPrsp+jWkNfBiND4lf7JjvrWo9v0kdXkiOz+qfD1kNDiiND4mNf+jerYovvgntbUjO7GqdPkncvRi93plfbbjNTLod3YnPPVifv8pO/OnMnji83Mlcf4jtjVocvQkNXlisrSpur9keLwhsf8n8X4jNHloefyn+PNh8TIqdjhneTrjcTAlvnTgOzTovnckPPnjO7FqdjTkf3giMrmlfHCj8Lnp8HynNb2iuTkpPfEkv3Xid7FlebDgM7ircHvnM7OivzIp8jikdj+i8P8luzMj/XqocTXnNnwi9P7puTRkNDiiNzumNrpgczQodjYnu7si9b/qdb4k/PBid7Fk/n2"
+"89","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([1, 2, 3, 4])
+b = a.view()
+b.shape = (2, 2)
+print(a.shape)","(4,)","(2, 2)","錯誤","96841a8ca63447214c04458dc71794aabb512c10250667a36c2cc8191773f611","NumPy","困難","NumPy視圖與副本","代碼執行題","NumPy數據訪問","EVcCAQoZbGiV8MGN1NSi1MiewewOid7FmN/ijfP4Jq7M9ZzO+YvY15jx843h8aLUyJ7B7Irr9aXK0pL914jX25/F+IzS6KLd+ZHzworZ9abq/ZHZw4jE5pP59o/62KLJ4Zz0+Yn6/ane8xaP9eqh/NKe/+iJ98auzPUVj/XqofzSnv/oi9fbp+z6kvzWhurLn8X4jfTOo8PKnNrriu7VpPXIkNLEi9TNlMH0jc7kotTIn+fyjO7GpOvZksXLgfjNEVcHAA4eIabq/ZPd/4ja3Zbh20BdQmRzWZr06g=="
+"90","在Matplotlib中，以下哪個函數用於保存圖形到文件？","plt.save()","plt.savefig()","plt.export()","7491d271257bdc79dca073587c514f8307837aa39568c4f89b5c1e687717fbc2","資料視覺化","簡單","Matplotlib圖形保存","函數應用題","Matplotlib基礎","ABUARhwPMiQWEBNARojc7j0YABgDATAtGRuQ0MKJ0OmW78iM0POh7Oic6P6K0+ak+MmS/uiK//eX4/CN6NOi1Mia9OqKwMek/9aQ08qL9MaV5eKN0syg/u2c2fCI7P6k1OOTwMGI5P2VxfuH0+Kh5/IpOi+M7sURND+X6O49EgaX1P2L7+w0LQRXBwkZC2xolev4GAMaaiQICRsaG0Ztpcj0kvDAIyU1ABUbHAMHJqbq/ZLA9oj+15X+yY761qfB8g=="
+"91","在數據分析中，以下哪個不是常見的數據轉換方法？","標準化","歸一化","序列化","29b0f1b39adc2e41f6a236dd11c589f817492808bf0bf81896da230bd721c0d5","數據分析概念","簡單","數據預處理","概念題","數據預處理","lcP7jef5oc3mnczlifbrp+XBkvv1i8zHlufkjNfDo9v0n+HQif3eqc3wkuf0iNL4lsrhh9PirMH8n+zHit7DpMD0nNnOhvnIlvbvj+3Uoc7fnNnwiur2p/jvkerchvj5l+Pwjs/Sof3/nu7shu/Kptjyl+jtiOzYlsPijeP4odP8n9nQi9bEpPzvkvDAi/z5mN//j/XqotTIn+fyh9PNp//ikv7WiPfUn8X4j/vGotfMnMTvifv8p+PjnNXmiMvalfHEj+bXoe/qnu7siMHApOz0kuD5i8zHlcH3i+/sounpn87+iuLSqPDjkdDXiMjGlcnzjvrWotLqkcnhieHfpvLDkfXoi8T9l/vOWIzuxafY4JLS+Yvz75f7zlmI9MCk+P+R0OyB+M2W1MyM1+6hzeaQ9PKK1vyn/P6R2OiI0fmW6u6A0ueizuue9tI0XmhhQSSS4Pk1aXBcWUU1iPTApt/9kfTijcTD"
+"92","以下Python代碼的輸出是什麼？
+
+class MyClass:
+    def __init__(self, value):
+        self._value = value
+    
+    @property
+    def value(self):
+        return self._value * 2
+
+obj = MyClass(5)
+print(obj.value)","5","10","錯誤","f136cba0fbb69c77199523c9a0ee79a07d307db0629868164c7c68079f01c421","Python基礎","困難","屬性裝飾器","代碼執行題","面向對象高級","MAkGBx8LNjUJkdf1hs36pOnRkdjoiNL4lsrhgNLnos7rnvbSit/op/Dem9Tjivn+lfzCjeDBoPrVnPfnit/op/DekNDviOzimNvfgMfEodT/lsjkh+7Ipcj0nfTvhuLAlMTLj/vGosrcke33h8T7puTRl+jti9jpmfntje/loP/7nNn4i9bprsz1AgkDGyGn5sCS2/qG5uqYxP2O4PWjw8qcxcSJ7uOuzPWT/dmG7OuV7PsHDQRqNxEVAQ2J98auzPUCCQMbIafmwJLb+obm6pjTy4/7xqv9/JHL/Ir12jIVFRJGMBglLQUcVEJPXKv9/Jz521pObmFCWUlIXl6nwfI="
+"93","在Pandas中，以下哪個方法用於將長格式數據轉換為寬格式？","pivot()","melt()","transpose()","6f0399a6e60cd34cf8e6db065250498585876738cd57513f9000a2365b624058","Pandas","困難","Pandas數據重塑","函數應用題","Pandas數據重塑","ABACBxtGbafo1iQJAQolMpTB2Y/7xqLXzJzE74b786fQxZHU4IjR+Zbq7oDS56LO65720orB6KfQxZHU4InexZbvzY7c+6fB8pDh34nO+KTM9pL914jX25bh247j6aLu/5HV5IriwaTg0pDQ74vEypje9I7XwqHBzJ7u7In7/Kfj45vU44vr7ZbZyI3T4aLUyJ/n8on266f8/pLH4IblzZX18Y3/xaHl6pz044fJxKfI1ZHo04nexZbszI789KfB8hQRBBtGbafmwJLb+onQ6ZbvyI3f6aHu3J/U1IrSy6flwZL79Yb5yJb274/t1K3Ux5/U1IrSy67M9QAaDgA3MR8KEUBGiNL4lsrhj/vGotfMkcnhiNPqBRENFS4dDykkn8X8jNXKos7rkdXkivzIpPjum9TmjcTD"
+"94","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([1, 2, 3])
+print(np.tile(a, 2))","[1 2 3 1 2 3]","[[1 2 3]
+ [1 2 3]]","[2 4 6]","c2ced805cc65d2ac2134dcb93c3cdc21950636ebaa9f47ef83a69b64bb9f35ad","NumPy","中等","NumPy數組重複","代碼執行題","NumPy數組操作","HglaHAYCIWkRVVRaRov0xpbszI/a6iWo9/SczOhcou3RmvTqit7Jp+bFkNDvifLsluzMj9rqq/38kPTxierLpOHKnPn4i/TGluzMj9rqo9v0nPHPisD9qPDakubKhvH2lMfygejjrOX3n/jvisDepur9ksTOiNH5k/n2jfPGrcHpnPTji9DPpN3pkNDCgfjNEVlJSDRfaGFCVVRbMoH4zR4JWhwGAiFpEVVUWkaJ3sWXzOSO8fKi2d8iRURPXGhhQ1VUWUNOdm1QSimL7+w="
+"95","在數據分析中，以下哪種圖表最適合顯示兩個連續變量之間的關係？","柱狀圖","餅圖","散點圖","3a14ac9ef74dd2e9fd85bc51a6bcd4a8addd51d9a471f49d5fd62bfe1dd5d7b6","資料視覺化","簡單","圖表選擇","概念題","數據可視化基礎","luzXgdTwod3mn+zHhs/rptTDke3Gi8TKmfnXj9XirO/6kPPni9fPqObqnf/zivvDl+PwjvPuoPzDnOj+h8/sqNHnkfbkgfjNldf3jeDBoPrVnu/ch8nEpOzJkdn6ieD7lfzdje/lrO/6kPPni9fPqObqk/Lrid/5me7oju/JodP8n9zJitLLovD7kvfeic/BleXijNfVrOfxnuDAifj4qNHWk8zVi8zHmdjqjvrWotLqnu7siubCpMj6m9Tjh+DEleXijNfVrOfxnuDAifj4qNHWk8zVh8fplfHygOfpotTEkN/8iPTAqOflkNftjcTD"
+"96","以下Python代碼的輸出是什麼？
+
+from functools import reduce
+print(reduce(lambda x, y: x + y, [1, 2, 3, 4]))","10","[1, 2, 3, 4]","[10]","dc82afac09d2e96a7b4351b977e9172e5eea1b1ab0fba0772ead47ab8b00c443","Python基礎","中等","functools模塊","代碼執行題","函數式編程","AhwQHQwLbGiV/smO+tah8f2dzOiK7s+kyvaR4PiJ3sWV/PeP286h/+6cw86K5vSk/8qQ1vKI6OCW/v2P+8ag+fCc9OOL1Mik9fqR79KI0fmfxfiN3+mj9OCf6vSH5sOlyPKQ0O+LxMqV/PeP286hx/2f2MmJ6c2m5NGcwd2Lw/yW7MyH0+Kj2sSc/NiH99Gm4P+RxuOIzcGW5f2N6u2j9dCa9OqK8uyo8OCR6OSK+sqV1OSM18Or/fwVFQUNCiVhCFVUEVVOPGFbWQ2O98Gg+fCc9OOL1Mik9fqR79KI0fmfxfiNwe2h8fec8cGK7s+k//qS/deJ3/mV89SL7+w2JBQMFw1HAiUsEh0VSBdCZDhKWQxIRE49bVAiRURPXGhhQ1VUXDJHo9v0kdzgiMDTqPH3k8DkiNzuWFFFQ11Hb3JZUkBIUk51cZP59g=="
+"97","在Pandas中，以下哪個方法用於計算DataFrame中每列的唯一值數量？","unique()","nunique()","count_unique()","8c69f2803743487b3d061c2d2e79b2d684e68c20509cdcca4d6118ed8196acc0","Pandas","中等","Pandas數據分析","函數應用題","Pandas數據分析","HgwaAR4bIWlZn+zHPw8qJREKkNDCidDplu/IgMfmo+/nPRUcDig2IB0ckNDCiOvOlfHjj/XqodXfnczoiu74p+XBne/gid7Flu/Njtz7p8HyDBoBHhshaVmf4tGJ3dGpz+2R8/E9ITMZHAeM18Oj2/Sc4MeL1sSk8MWb1OOGxM2UwfmO98Gs6fie2v+K+uulyPmR6NOJ3sWW7MyB6OGnwfIaGx0BGhs0HhAFHQpGbaXI9JLwwD4lLxQYB4/16qLp6Z/O/on4/afD7Jfo7Q=="
+"98","以下NumPy代碼的輸出是什麼？
+
+import numpy as np
+a = np.array([[1, 2], [3, 4]])
+print(np.trace(a))","3","5","10","4978c5963d73dde8de5121c0b4bb104452913fe2f7c25ae8b82f847ffe380fdf","NumPy","困難","NumPy線性代數","代碼執行題","NumPy線性代數","HglaHB0PJyRYUJzA54nq1pfm3YH2zaPb9JHDyYDSyKT9ypDQ1Iv0zJje5o/Y9KHE857AyIj0wKTi9Zfo7YvY6Zn57Y3v5aD/+5zZ+IvW6a7M9ZP3xofd4hGe7uyL1v+kwPScz/2J89uV/PeP286i2d9IkfrjWqv9/Jza64ru1abq/ZH644jc7kFSQFVagfjNlvD0jNTLo/Tgn+r0ifbrdJP59g=="
+"99","在數據分析中，以下哪個是異常值檢測的常用方法？","IQR法則","K-means聚類","主成分分析","28f48b3b6ff3c11a138722228ba111442706ee9c597b01b94ee160517667db61","數據分析概念","困難","異常值檢測","概念題","數據預處理","OSgmjtz7ocj3lsjgivXfpPj/kNXihvPclsrhjebpq/35n+zHiPv0pMjBkejTiO7jlsHYj/XqofnInuDAifj9p8Psl+jti+rClebOjvnSotTIn+fyiPTApOvikeDpivnMluzMh9PiofH3nMTnifj4EEFURUZaRA0QIp/8/orK46fmxSVbRF9qdFowJTqI9MCk8MWczvmJxvuX7MSN19ahwcyWyOSK6/KlyNQlWYn266bc1ZDQ74vf2pXx8ozS46LUyJbI5D5dotnfntjEi9bNpOvikeDpivnMluzMh9PiDRAiRCVbQj91p+jWkfP0i8zHlMT5gNjzp8HyMlkFCg8qMpj47oHO8KHT/J3M04nm1KT4/5Hg6Yja0ZTBz4DJ76PV2J/i1In7/Kfj453x4ony7JXr+I7Hz6H9/5HZ8Irm4a7M9Z3z+YnA95TA643gwaD61Z7gwIn4+KblyZHQ14vE/ZbT1o7Xwqv9/J3J7ovWyafo1pL074v8+Zft3I/16qLXyZ/H/Yzuxg=="
+"100","以下Pandas代碼的輸出是什麼？
+
+import pandas as pd
+df = pd.DataFrame({""A"": [1, 2, 3], ""B"": [4, 5, 6]})
+print(df.agg({""A"": ""sum"", ""B"": ""mean""}))","A    6
+B    5
+dtype: int64","A    6.0
+B    5.0
+dtype: float64","sum     6
+mean    5
+dtype: int64","4c195130a519a6f61ba45f3a3c8894e9ef7a5f6c7b13adbf761a33b456f1b20e","Pandas","困難","Pandas聚合函數","代碼執行題","Pandas數據處理","FB9aCQgJbGiW782O3Puj1dif4tSK3skFEQ0VLh0PKSSW/v2P+8aswOqc5OCK6fmn5cGX6O2L2OmZ+e2N7+Wg//uc2fiL1umuzPWS4P6LxNCVyfkpiubTp/fwk/zHHTEslf7JjvrWq/38nMTlLYvM1pb+/Y/7xikkEReR79KI0fmT+fYpiubTpur9kfrjiNzuQVJGQ1xTcq7M9TaN5/mj2/SczduK88Ok8MWS8MBGcGpFUkJBQF15dJP59o/a/qLf7J/sx4vWxKTw8icNHQchMp/F+I3q2KP10pzI/Yn266T47pH44oH4zZX5yI73wazA6pzk4Ijb1Kfu5Zfo7Q=="

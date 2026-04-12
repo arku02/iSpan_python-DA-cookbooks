@@ -158,3 +158,6 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Quiz plaintext answers (teacher-only, do NOT distribute)
+Special-Edition_python_DA/d7a8fbb7e57b479e21b7c90fdfab726b/quiz.csv

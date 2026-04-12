@@ -7,7 +7,9 @@
 """
 from __future__ import annotations
 
+import base64
 import csv
+import hashlib
 import math
 import os
 import random
@@ -20,7 +22,7 @@ from tkinter import messagebox, ttk
 from typing import Any
 
 # ── 常數 ──────────────────────────────────────────────
-QUIZ_CSV = os.path.join(os.path.dirname(__file__), "quiz.csv")
+QUIZ_CSV = os.path.join(os.path.dirname(__file__), "quiz_enc.csv")
 RESULT_CSV_V2 = os.path.join(os.path.dirname(__file__), "result_log_v2.csv")
 CONFIG_JSON = os.path.join(os.path.dirname(__file__), "class_config.json")
 EXAM_DURATION_SEC = 30 * 60  # 30 分鐘
@@ -54,7 +56,23 @@ TYPE_CSV_KEYS = ["type_concept", "type_function", "type_execution", "type_unders
 DIFF_ORDER = ["簡單", "中等", "困難"]
 
 
-# ── 讀取題庫 ──────────────────────────────────────────
+# ── 加密常數（須與 build_encrypted_quiz.py ��致）────
+_SALT = "iSpan_DA_2025"
+_XOR_KEY = "pythonDA"
+
+
+def _hash_answer(qid: str, answer: str) -> str:
+    raw = f"{_SALT}{qid}{answer.strip().lower()}"
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def _xor_decode(encoded: str, key: str = _XOR_KEY) -> str:
+    data = base64.b64decode(encoded)
+    key_bytes = key.encode("utf-8")
+    return bytes(b ^ key_bytes[i % len(key_bytes)] for i, b in enumerate(data)).decode("utf-8")
+
+
+# ── 讀取題庫 ─────────��────────────────────────────���───
 def load_questions(path: str = QUIZ_CSV) -> list[dict[str, Any]]:
     with open(path, encoding="utf-8-sig") as f:
         return list(csv.DictReader(f))
@@ -81,8 +99,19 @@ def evaluate(
         diff_stats[diff]["max"] += q_score
 
         selected = responses.get(qid, "")
-        correct = q["answer"].strip().lower()
-        is_correct = selected.strip().lower() == correct if selected else False
+        answer_hash = q["answer"].strip()
+        # Compare by hashing the student's selection with the same salt
+        is_correct = (
+            _hash_answer(str(qid), selected) == answer_hash
+            if selected
+            else False
+        )
+        # Determine the correct letter by brute-force checking a/b/c
+        correct = ""
+        for opt in ("a", "b", "c"):
+            if _hash_answer(str(qid), opt) == answer_hash:
+                correct = opt
+                break
 
         if is_correct:
             score += q_score
@@ -100,7 +129,7 @@ def evaluate(
                 "correct": correct,
                 "is_correct": is_correct,
                 "difficulty": diff,
-                "explanation": q.get("explanation", ""),
+                "explanation": _xor_decode(q["explanation"]) if q.get("explanation") else "",
                 "knowledge_point": q.get("knowledge_point", ""),
                 "chapter": q.get("chapter", ""),
                 "category": q.get("category", ""),
