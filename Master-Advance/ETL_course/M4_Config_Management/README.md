@@ -39,6 +39,8 @@ DB_PASSWORD = os.environ["DB_PASSWORD"]   # 機密從環境變數來
 - **`S4_config_management.ipynb`** — INI + YAML + .env 三種方式全講
 - **`config/config.ini`** — INI 範例
 - **`config/config.yaml`** — YAML 範例
+- **`config/.env.example`** — .env 機密範本。複製成 `.env` 後填真實值；
+  `.env` 已被 root `.gitignore` 忽略，永遠不會誤 commit 上 GitHub
 
 ## 常踩的坑
 
